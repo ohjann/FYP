@@ -11,20 +11,7 @@ from functools import reduce
 from collections import OrderedDict
 from optparse import OptionParser
 from itertools import cycle
-
-# Setup program flags and descriptions
-parser = OptionParser()
-parser.add_option("-f", "--file", action="store", dest="filename", help="specify file")
-(options, args) = parser.parse_args()
-
-if(options.filename):
-    filename = options.filename
-else:
-    print("Usage: python3 parser.py -f [PATH TO FILE]")
-    sys.exit()
-    
-DOMTree = xml.dom.minidom.parse(filename)
-collection = DOMTree.documentElement
+   
 
 noteVector = OrderedDict()  
 noteVector["C"]  = 0
@@ -63,7 +50,7 @@ def kkProb(offset, avrg, noteVect, keyAvrg, keyProf):
     return top / ((x * y)**0.5)
       
 
-def getKey(noteVector):
+def assessKey(noteVector):
     # get average note occurance
     total = 0
     for note in noteVector:
@@ -90,7 +77,9 @@ def getKey(noteVector):
 
     return possibleKeys
 
-def main():
+def getKey(filename):
+    DOMTree = xml.dom.minidom.parse(filename)
+    collection = DOMTree.documentElement
     lastNote = 'q'
     # iterate through xml
     for attr in collection.getElementsByTagName('attributes'):
@@ -130,20 +119,16 @@ def main():
     del noteVector["E#"]
     del noteVector["B#"]
 
-    keyProb = getKey(noteVector)
+    keyProb = assessKey(noteVector)
+
     maxx = max(keyProb)
     maxindex = [i for i, j in enumerate(keyProb) if j == maxx]
-    guessedKey = ""
     i=0
     for key, value in noteVector.items() :
         if(maxindex == [i]):
-            print("GUESSED KEY: \n\t%s major: \t%f" % (key, keyProb[i]))
-        else: print("%s major: \t%f" % (key, keyProb[i]))
+            return (key, "major")
         i+=1
     for key, value in noteVector.items() :
         if(maxindex == [i]):
-            print("GUESSED KEY: \n\t%s minor: \t%f" % (key, keyProb[i]))
-        else: print("%s minor: \t%f" % (key, keyProb[i]))
+            return (key, "minor")
         i+=1
-
-main()
