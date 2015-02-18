@@ -13,18 +13,18 @@ else:
     print("Usage: python3 splitter.py -f [PATH TO FILE]")
     sys.exit()
 
-semitones = [   ("A",0),
-                ("A#",1),
-                ("B",2),
-                ("C",3),
-                ("C#",4),
-                ("D",5),
-                ("D#",6),
-                ("E",7),
-                ("F",8),
-                ("F#",9),
-                ("G",10),
-                ("G#",11)
+semitones = [   ("C",0),
+                ("C#",1),
+                ("D",2),
+                ("D#",3),
+                ("E",4),
+                ("F",5),
+                ("F#",6),
+                ("G",7),
+                ("G#",8),
+                ("A",9),
+                ("A#",10),
+                ("B",11)
             ]
 
 def sectionKeys(parts):
@@ -38,32 +38,60 @@ def sectionKeys(parts):
                 for key in attr:
                     if key.tag == "key":
                         keylist.append((key[0].text,i))
-    # XXX: Fix note overflow!
     return keylist
 
 def noteTrans(stringrep, alter, distance):
+    ''' Transposes individual notes by passed distance, returns note
+        in a (new note, alter, octave change) tuple where octave change is
+        the change in octave necessary when transposing '''
     semiTup = [i for i, v in enumerate(semitones) if v[0] == stringrep]
     semiTup = semiTup[0]+int(alter)
     trans = semiTup+int(distance)
+    octave = 0
+    if(trans>11):
+        trans = trans%12
+        octave = 1
+    elif(trans<0):
+        trans = trans+12
+        octave = -1
     for tone in semitones:
         if tone[1] == trans:
-            return tone[0]
+            if(len(tone[0])>1):
+                return (tone[0], 1, octave)
+            else:
+                return (tone[0], 0, octave)
 
-    #print("semiTup: %d, distance: %d, alter: %d, trans: %d" % (semiTup[0],int(distance), int(alter),trans))
-    #print("Ó %s go dtí %s" % (([v[0][0] for i,v in enumerate(semitones) if i == semiTup[0]]),([v[0][0] for i,v in enumerate(semitones) if i == trans])))
+
+           #XXX DOESNT WORK WHY DOESNT IT WORK
  
 def transpose(parttuple):
     distance, part = parttuple
+    #print(distance)
     for pitch in part.findall('./measure/note/pitch/'):
-        alter = 0
+        alterint = 0
         if(pitch.tag == "step"):
-            note = pitch.text
+            note = pitch
+            notestring = note.text
+        if(pitch.tag == "octave"):
+            octave = pitch
         if(pitch.tag == "alter"):
-            alter = int(pitch.text)
+            alter = pitch
+            alterint = int(pitch.text)
+        newNote, alterchange, octavechange = noteTrans(notestring,alterint,distance)
 
-        newNote = noteTrans(note,alter,distance)
-        if '#' in newNote:
-            print(1)
+        # update values
+        note.text = newNote[0]
+        note.set('updated', 'yes')
+        if 'alter' in locals():
+            alter.text = str(alterchange)
+            alter.set('updated', 'yes')
+        if octavechange != 0 and octave.attrib == {}:
+            #print(octave.attrib)
+            octave.text = str(int(octave.text)+octavechange)
+            octave.set('updated', 'yes')
+    for fifth in part.findall('./measure/attributes/key/fifths'):
+        fifth.text = "0"
+        fifth.set('updated', 'yes')
 
 if __name__ == '__main__':
     tree = ET.parse( filename )
@@ -71,3 +99,4 @@ if __name__ == '__main__':
     keylist = sectionKeys(parts)
     for part in keylist:
         transpose(part)
+    tree.write("output.xml")
