@@ -1,0 +1,606 @@
+key change!
+{'width': '207.51', 'number': '1'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '116.10', 'number': '2'}
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '150.42', 'number': '3'}
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+{'width': '150.42', 'number': '4'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+{'width': '150.42', 'number': '5'}
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+{'width': '150.42', 'number': '6'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '163.62', 'number': '7'}
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 1, distance: -2
+Returned: newNote: E, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '150.42', 'number': '8'}
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+{'width': '202.85', 'number': '9'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '141.32', 'number': '10'}
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '175.64', 'number': '11'}
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+{'width': '184.51', 'number': '12'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: 0, distance: -2
+Returned: newNote: A, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+{'width': '176.11', 'number': '13'}
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: 0, distance: -2
+Returned: newNote: A, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '175.64', 'number': '14'}
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '141.32', 'number': '15'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '124.89', 'number': '16'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+{'width': '255.71', 'number': '17'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: 0, distance: -2
+Returned: newNote: D, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+{'width': '136.39', 'number': '18'}
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '179.58', 'number': '19'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: 0, distance: -2
+Returned: newNote: D, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+{'width': '153.55', 'number': '20'}
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '187.87', 'number': '21'}
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '136.39', 'number': '22'}
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+{'width': '136.39', 'number': '23'}
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 0, distance: -2
+Returned: newNote: D#, alterchange: 1, octavechange: 0
+
+{'width': '136.39', 'number': '24'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+{'width': '212.65', 'number': '25'}
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: 0, distance: -2
+Returned: newNote: A, alterchange: 0, octavechange: 0
+
+{'width': '142.25', 'number': '26'}
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+{'width': '189.77', 'number': '27'}
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 1, distance: -2
+Returned: newNote: E, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+{'width': '181.48', 'number': '28'}
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 1, distance: -2
+Returned: newNote: E, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: 0, distance: -2
+Returned: newNote: D, alterchange: 0, octavechange: 0
+
+{'width': '189.77', 'number': '29'}
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: F, alter: 1, distance: -2
+Returned: newNote: E, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+{'width': '125.09', 'number': '30'}
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: A, alter: 0, distance: -2
+Returned: newNote: G, alterchange: 0, octavechange: 0
+
+Args: stringrep: E, alter: -1, distance: -2
+Returned: newNote: C#, alterchange: 1, octavechange: 0
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+{'width': '172.61', 'number': '31'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: F, alter: 1, distance: -2
+Returned: newNote: E, alterchange: 0, octavechange: 0
+
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: C, alter: 0, distance: -2
+Returned: newNote: A#, alterchange: 1, octavechange: -1
+
+Args: stringrep: D, alter: 0, distance: -2
+Returned: newNote: C, alterchange: 0, octavechange: 0
+
+{'width': '108.66', 'number': '32'}
+Args: stringrep: B, alter: -1, distance: -2
+Returned: newNote: G#, alterchange: 1, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+
+Args: stringrep: G, alter: 0, distance: -2
+Returned: newNote: F, alterchange: 0, octavechange: 0
+

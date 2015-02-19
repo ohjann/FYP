@@ -27,23 +27,21 @@ semitones = [   ("C",0),
                 ("B",11)
             ]
 
-def sectionKeys(parts):
-    ''' Sectioning pieces with changing key signature into different parts
-        to be transposed individually.
-        Parts with different keys stored in (DISTANCE FROM C, PART ELEMENT) tuple '''
-    keylist = []
-    for i in parts:
-            attrlist = i.findall("./measure/attributes")
-            for attr in attrlist:
-                for key in attr:
-                    if key.tag == "key":
-                        keylist.append((key[0].text,i))
-    return keylist
+def sectionKeys(measure):
+    measurekey = 'x'
+    for child in measure:
+        for attr in child:
+            if attr.tag == "key":
+                measurekey = attr[0].text
+                attr[0].text = '0'
+                attr[0].set('updated', 'yes')
+    return measurekey
 
 def noteTrans(stringrep, alter, distance):
     ''' Transposes individual notes by passed distance, returns note
         in a (new note, alter, octave change) tuple where octave change is
         the change in octave necessary when transposing '''
+    #print("Args: stringrep: %s, alter: %d, distance: %s" % (stringrep, alter, distance))
     semiTup = [i for i, v in enumerate(semitones) if v[0] == stringrep]
     semiTup = semiTup[0]+int(alter)
     trans = semiTup+int(distance)
@@ -60,43 +58,63 @@ def noteTrans(stringrep, alter, distance):
                 return (tone[0], 1, octave)
             else:
                 return (tone[0], 0, octave)
-
-
-           #XXX DOESNT WORK WHY DOESNT IT WORK
  
-def transpose(parttuple):
-    distance, part = parttuple
-    #print(distance)
-    for pitch in part.findall('./measure/note/pitch/'):
-        alterint = 0
-        if(pitch.tag == "step"):
-            note = pitch
-            notestring = note.text
-        if(pitch.tag == "octave"):
-            octave = pitch
-        if(pitch.tag == "alter"):
-            alter = pitch
-            alterint = int(pitch.text)
-        newNote, alterchange, octavechange = noteTrans(notestring,alterint,distance)
+def transpose(measure, distance):
+    #print(measure.attrib)
+    for note in measure.findall('./note'):
+        index = -1
+        if(note[0].tag == "pitch"):
+            index = 0
+        elif (note[0].tag == "chord"):
+            index = 1
+        if index != -1 :
+            alterint = 0
+            step = note[index][0]
+            stepstring = step.text
+            
+            if(note[index][1].tag == "alter"):
+                alter = note[index][1]
+                alterint = int(alter.text)
+                octave = note[index][2]
+            else:
+                octave = note[index][1]
 
-        # update values
-        note.text = newNote[0]
-        note.set('updated', 'yes')
-        if 'alter' in locals():
-            alter.text = str(alterchange)
-            alter.set('updated', 'yes')
-        if octavechange != 0 and octave.attrib == {}:
-            #print(octave.attrib)
-            octave.text = str(int(octave.text)+octavechange)
-            octave.set('updated', 'yes')
-    for fifth in part.findall('./measure/attributes/key/fifths'):
-        fifth.text = "0"
-        fifth.set('updated', 'yes')
+            newNote, alterchange, octavechange = noteTrans(stepstring,alterint,distance)
+            #print("Returned: newNote: %s, alterchange: %d, octavechange: %d\n" % (newNote, alterchange, octavechange))
+
+            # update values
+            step.text = newNote[0]
+            step.set('updated', 'yes')
+            del step
+            if 'alter' in locals():
+                alter.text = str(alterchange)
+                alter.set('updated', 'yes')
+                del alter
+            else:
+                alter = ET.Element('alter')
+                alter.text = str(alterchange)
+                alter.set('updated', 'yes')
+                alter.tail = "\n\t\t  "
+                note[index].insert(1,alter)
+                del alter
+            if 'octave' in locals():
+                if octavechange != 0 and octave.attrib == {}:
+                    octave.text = str(int(octave.text)+octavechange)
+                    octave.set('updated', 'yes')
+                del octave # deleting to avoid weird variable mixups
 
 if __name__ == '__main__':
     tree = ET.parse( filename )
-    parts = tree.findall("./part")
-    keylist = sectionKeys(parts)
-    for part in keylist:
-        transpose(part)
+    measurelist = tree.findall("./part/measure")
+    key = '0'
+    for measure in measurelist:
+        tmpkey = sectionKeys(measure)
+        if tmpkey != 'x':
+            #print("key change!")
+            key = tmpkey
+        if key == '0':
+            # measure alread in C
+            continue
+        transpose(measure,key)
+
     tree.write("output.xml")
