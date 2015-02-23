@@ -1,8 +1,9 @@
-##
-##
-##  Krumhansl-Schmuckler key-finding algorithm
-##
-##
+# -*- coding: utf-8 -*-
+"""
+
+  Krumhansl-Schmuckler key-finding algorithm
+
+"""
 
 import xml.dom.minidom
 import copy
