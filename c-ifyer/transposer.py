@@ -6,6 +6,7 @@
 """
 
 import sys
+import os
 import xml.etree.ElementTree as ET
 from optparse import OptionParser
 
@@ -51,20 +52,27 @@ def queryKey(measure):
                 attr[0].set('updated', 'yes')
     return measurekey
 
-def noteTrans(stringrep, alter, distance):
-    """ Transposes individual notes by passed distance
+def noteTrans(stringrep, alter, numflatsharps):
+    """ Transposes individual notes by passed numflatsharps
     :param stringrep: string representation of the note to be transposed
     :type stringrep: str
     :param alter: int -1, 0, or 1 depending on flat, natural or sharp respectively
     :type alter: int
-    :param distance: the distance from C which the note needs to be transposed by
-    :type distance: str or int
+    :param numflatsharps: the numflatsharps from C which the note needs to be transposed by
+    :type numflatsharps: str or int
     :returns: tuple with three values corresponding to (the new transposed note, any alter necessary, any octave change necessary)
     :rtype: (str,int,int)
     """
-    #print("Args: stringrep: %s, alter: %d, distance: %s" % (stringrep, alter, distance))
+    #print("Args: stringrep: %s, alter: %d, numflatsharps: %s" % (stringrep, alter, numflatsharps))
     semiTup = [i for i, v in enumerate(semitones) if v[0] == stringrep]
     semiTup = semiTup[0]+int(alter)
+
+    distance = (int(numflatsharps)*5)%12 # circle of fifths for flats
+
+    if distance > 6:
+        distance = distance - 12 # transpose to nearest, avoid huge jumps
+    #print("FlatSharp: %s, distance to transpose: %d" % (numflatsharps,distance))
+
     trans = semiTup+int(distance)
     octave = 0
     if(trans>11):
@@ -80,12 +88,12 @@ def noteTrans(stringrep, alter, distance):
             else:
                 return (tone[0], 0, octave)
  
-def transpose(measure, distance):
-    """ Transposes MusicXML measure by distance
+def transpose(measure, numflatsharps):
+    """ Transposes MusicXML measure by numflatsharps
     :param measure: MusicXML measure which is to be transposed
     :type measure: xml.etree.ElementTree.Element
-    :param distance: string, the distance from C which the note needs to be transposed by
-    :type distance: str or int
+    :param numflatsharps: string, the numflatsharps from C which the note needs to be transposed by
+    :type numflatsharps: str or int
     """
     #print(measure.attrib)
     for note in measure.findall('./note'):
@@ -106,7 +114,7 @@ def transpose(measure, distance):
             else:
                 octave = note[index][1]
 
-            newNote, alterchange, octavechange = noteTrans(stepstring,alterint,distance)
+            newNote, alterchange, octavechange = noteTrans(stepstring,alterint,numflatsharps)
             #print("Returned: newNote: %s, alterchange: %d, octavechange: %d\n" % (newNote, alterchange, octavechange))
 
             # update values
@@ -144,4 +152,8 @@ if __name__ == '__main__':
             continue
         transpose(measure,key)
 
-    tree.write("output.xml")
+    directory = os.path.dirname(os.path.realpath(filename))+"/c-versions/"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    print("Storing transposed file in %s..." % (directory))
+    tree.write(directory+os.path.basename(filename))

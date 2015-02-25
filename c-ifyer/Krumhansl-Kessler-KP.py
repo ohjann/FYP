@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 
-  Krumhansl-Schmuckler key-finding algorithm
+    Krumhansl-Schmuckler key-finding algorithm
+    ... not reliable 
 
 """
 
@@ -12,7 +13,18 @@ from functools import reduce
 from collections import OrderedDict
 from optparse import OptionParser
 from itertools import cycle
-   
+from optparse import OptionParser
+
+# Setup program flags and descriptions
+parser = OptionParser()
+parser.add_option("-f", "--file", action="store", dest="filename", help="specify file")
+(options, args) = parser.parse_args()
+
+if(options.filename):
+    filename = options.filename
+else:
+    print("Usage: python3 Krumhansl-Kessler-KP.py -f [PATH TO FILE]")
+    sys.exit()
 
 noteVector = OrderedDict()  
 noteVector["C"]  = 0
@@ -78,7 +90,7 @@ def assessKey(noteVector):
 
     return possibleKeys
 
-def getKey(filename):
+def getKey():
     DOMTree = xml.dom.minidom.parse(filename)
     collection = DOMTree.documentElement
     lastNote = 'q'
@@ -133,3 +145,6 @@ def getKey(filename):
         if(maxindex == [i]):
             return (key, "minor")
         i+=1
+
+if __name__ == '__main__':
+    print("%s %s" % (getKey()))
