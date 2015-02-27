@@ -3,6 +3,16 @@
 
     Program to determine SPEAC identifier of given notes
 
+
+    From http://csml.som.ohio-state.edu/Music839C/Notes/Cope.html:
+        " In traditional tonal function analysis a 'five' chord is a 'five' chord. But, the SPEAC system acknowledges that harmonies function in multiple ways within a single key. This parallels language in which a word's meaning may change depending on context. The components of SPEAC are as follows:
+
+        (S)tatement: An idea may "simply exist 'as is' with nothing expected beyond iteration," (p.34).
+        (P)reparation: "Preparations modify the meanings of statements or other identifiers by standing ahead of them without being independent," (p.35).
+        (E)xtension: This is a way to prolong a statement. Basically, it is a codetta.
+        (A)ntecedent: These "cause significant implication and require resolution," (p.35).
+        (C)onsequent: These resolve the antecedent. "Consequents are often the same chords or melodic fragments as found in S. However, they have different implications," (p.35). "
+
 """
 from collections import Counter
 

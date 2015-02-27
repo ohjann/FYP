@@ -18,7 +18,7 @@ parser.add_option("-f", "--file", action="store", dest="filename", help="specify
 if(options.filename):
     filename = options.filename
 else:
-    print("Usage: python3 splitter.py -f [PATH TO FILE]")
+    print("Usage: python3 transposer.py -f [PATH TO FILE]")
     sys.exit()
 
 semitones = [   ("C",0),
