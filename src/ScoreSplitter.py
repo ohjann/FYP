@@ -10,6 +10,9 @@
     Splits MusicXML by beat into corresponding SPEAC
     directories.
 
+    *** Currently only works on the first SPEAC ID for 
+    any beats which have an equal match with multiple IDs
+
 """
 
 import SPEACIDs
@@ -45,7 +48,7 @@ def ensureExistance(directory):
 
 def writeToFile( SPEACdict ):
     directory = os.path.dirname(os.path.realpath(__file__))
-    directory += "/data/SPEAC/"
+    directory += "/../data/SPEAC/"
     ensureExistance(directory)
     speacxml = dict.fromkeys(speacIDList,ET.Element)
     for ID in speacIDList:

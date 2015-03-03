@@ -153,7 +153,7 @@ if __name__ == '__main__':
         transpose(measure,key)
 
     #directory = os.path.dirname(os.path.realpath(filename))+"/c-versions/"
-    directory = os.path.join(os.path.realpath(os.path.dirname(__file__)), os.pardir)+"/data/clarified-scores/"
+    directory = os.path.join(os.path.realpath(os.path.dirname(__file__)), os.pardir)+"/../data/clarified-scores/"
     if not os.path.exists(directory):
         os.makedirs(directory)
     print("Storing transposed file in %s..." % (directory))
