@@ -14,6 +14,11 @@
         (C)onsequent: These resolve the antecedent. "Consequents are often the same chords or melodic fragments as found in S. However, they have different implications," (p.35). "
 
 """
+
+###
+### TODO: Note weighting based on dynamics and length
+###
+
 from collections import Counter
 
 # List of SPEAC Identifier Tuples
@@ -39,14 +44,24 @@ SPEACLists = [  ( 'C1' , set([ "C2","C3","C4","C5","C6","C7","C8","C9","E2","E3"
                 ( 'S2' , set([ "A#2","A#3","A#4","A#5","A#6","A#7","A#8","D2","D3","D4","D5","D6","D7","D8","F2","F3","F4","F5","F6","F7","F8" ]) )
             ]
 
+def SPEACIDsToList():
+    """ Returns SPEAC IDs in a list without the note sets
+    :returns: List of SPEAC IDs
+    :rtype: list(str)
+    """
+    IDs = []
+    for ID in SPEACLists:
+        IDs.append(ID[0])
+    return IDs
+
 def getSPEAC(notes):
 
-    ''' Compares passed notes to SPEAC identifiers.
+    """ Compares passed notes to SPEAC identifiers.
     :param notes: list of notes in the form 'NOTE''OCTAVE' with no space between
     :type notes: list[str]
     :returns: list of SPEAC identifiers best matching passed notes
     :rtype: list[str]
-    '''
+    """
 
     SPEACcount = [0] * len(SPEACLists)
     for i in range(0, len(SPEACLists)):
