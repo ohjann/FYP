@@ -17,7 +17,8 @@
 
 ###
 ###
-###     TODO:   - Account for time signature changes
+###     TODO:   pretty much just rewrite this whole file
+###             - Account for time signature changes
 ###             - Account for single staves
 ###             - Fix last note beatnumber (not 100% necessary)
 ###             - Don't add speac element if already exists
@@ -25,9 +26,9 @@
 ###
 
 import sys
+import SPEACIDs
 import lxml.etree as ET
 from optparse import OptionParser
-import SPEACIDs
 
 # Setup program flags and descriptions
 parser = OptionParser()

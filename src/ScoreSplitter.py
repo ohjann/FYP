@@ -15,6 +15,8 @@
 
 """
 
+#TODO: Store "destination" or beats along with beats
+
 import SPEACIDs
 import os
 import lxml.etree as ET
@@ -95,7 +97,7 @@ def groupBeats( measure ):
                 beatDict[ndict['beatnumber']].append(note)
     return beatDict
 
-def aDescriptiveFunctionName ( filename ):
+def split ( filename ):
     tree = ET.parse(filename)
 
     measureBeats = []
@@ -110,4 +112,4 @@ def aDescriptiveFunctionName ( filename ):
     #    print(ID,notes)
 
 if __name__ == '__main__':
-    aDescriptiveFunctionName( filename )
+    split( filename )
