@@ -137,6 +137,13 @@ def splitBeats(measure,divisions,beats,staves):
             for xml in notexml:
                 xml.getparent().append(speacxml)
 
+# XXX: May be necessary
+#def clarifyDivisons(measure,divisions):
+#    for note in measure.findall("./note/"):
+#        if note.tag == "duration":
+#            duration = int(note.text)
+#            note.text = str(duration/divisions)
+
 def parseFile(filename):
     tree = ET.parse(filename)
     measurelist = tree.findall("./part/measure")
@@ -147,6 +154,10 @@ def parseFile(filename):
         staves = 1
     for measure in measurelist:
         splitBeats(measure,int(divisions),int(beats),int(staves))
+    #if divisions != "4":
+    #    for measurein measurelist:
+    #        clarifyDivisions(measure,int(divisions))
+
     tree.write(filename,pretty_print=True)
 
 if __name__ == '__main__':

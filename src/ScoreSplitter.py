@@ -63,8 +63,7 @@ def writeToFile( SPEACdict ):
         for notes in notelist:
             beatElm = ET.Element('beat')
             beatElm.tail = "\n"
-            for note in notes:
-                beatElm.append(note)
+            beatElm.append(notes)
             root.append(beatElm)
 
         speacxml[ID].write(directory+ID+".xml",pretty_print=True)
