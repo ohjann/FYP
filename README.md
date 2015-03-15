@@ -1,6 +1,7 @@
 # Algorithmic Music Composer
 Algorithmic music composition program based off David Cope's EMI. Done as part of my Final Year Project with TCD SCSS.
 
+Sample output can be seen [here](http://ohjann.netsoc.ie/music/FYP).
 
 ##Usage
 
