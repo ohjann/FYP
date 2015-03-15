@@ -129,8 +129,8 @@ def addToPiece(fourbeats,mxl):
     measure.set("number",str(globalmeasure))
     #barline = ET.fromstring('<barline location="right"><bar-style>light-heavy</bar-style><repeat direction="backward"/></barline>')
     for beat in fourbeats:
-        notes = beat.findall("note")
-        for note in notes:
+        #notes = beat.findall("note")
+        for note in beat:
             measure.append(note)
     #        measure.append(barline)
     part.append(measure)

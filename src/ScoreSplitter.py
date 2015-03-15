@@ -62,8 +62,13 @@ def writeToFile( SPEACdict ):
 
         beatElm = ET.Element('beat')
         beatElm.tail = "\n"
+        backupin = False
         for notes in notelist:
             beatElm.append(notes)
+            if notes.findtext("staff") == "2" and not backupin:
+                backup = ET.fromstring("<backup><duration>96</duration></backup>")
+                beatElm.append(backup)
+                backupin = True
         if len(beatElm):
             root.append(beatElm)
 

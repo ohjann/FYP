@@ -138,6 +138,16 @@ def transpose(measure, numflatsharps):
                     octave.set('updated', 'yes')
                 del octave # deleting to avoid weird variable mixups
 
+def removeExcess(measure):
+    """ Removes "notations" from MusicXML because it causes wacky sheet music upon recombination 
+    :param measure: MusicXML measure which is to be transposed
+    :type measure: xml.etree.ElementTree.Element
+    """
+    for notes in measure.findall("note"):
+        for child in notes:
+            if child.tag == "notations":
+                notes.remove(child)
+
 if __name__ == '__main__':
     tree = ET.parse( filename )
     measurelist = tree.findall("./part/measure")
@@ -151,6 +161,7 @@ if __name__ == '__main__':
             # measure alread in C
             continue
         transpose(measure,key)
+        removeExcess(measure)
 
     #directory = os.path.dirname(os.path.realpath(filename))+"/c-versions/"
     directory = os.path.join(os.path.realpath(os.path.dirname(__file__)), os.pardir)+"/../data/clarified-scores/"
