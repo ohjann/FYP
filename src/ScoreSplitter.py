@@ -60,10 +60,11 @@ def writeToFile( SPEACdict ):
         root = speacxml[ID].getroot()
         root.set('ID', ID)
 
+        beatElm = ET.Element('beat')
+        beatElm.tail = "\n"
         for notes in notelist:
-            beatElm = ET.Element('beat')
-            beatElm.tail = "\n"
             beatElm.append(notes)
+        if len(beatElm):
             root.append(beatElm)
 
         speacxml[ID].write(directory+ID+".xml",pretty_print=True)

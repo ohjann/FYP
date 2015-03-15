@@ -159,6 +159,8 @@ def generate():
     beats = speacBeats(speacdir)
 
     gen_piece = jigsaw(beats,speacStructure)
+    if os.path.isfile("composition.xml"):
+        os.remove("composition.xml")
     gen_piece.write("composition.xml")
 
 if __name__ == '__main__':

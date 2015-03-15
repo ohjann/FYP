@@ -137,27 +137,50 @@ def splitBeats(measure,divisions,beats,staves):
             for xml in notexml:
                 xml.getparent().append(speacxml)
 
-# XXX: May be necessary
-#def clarifyDivisons(measure,divisions):
-#    for note in measure.findall("./note/"):
-#        if note.tag == "duration":
-#            duration = int(note.text)
-#            note.text = str(duration/divisions)
+##TODO: not working
+def clarifyDivisions(measure):
+    duration = ET.Element("br")
+    for note in measure.findall("./note/"):
+        if note.tag == "duration":
+            duration = note
+        elif note.tag == "type":
+            if note.text == "whole":
+                duration.text = "192"
+                duration.set('updated','yes')
+            elif note.text == "half":
+                duration.text = "96"
+                duration.set('updated','yes')
+            elif note.text == "quarter":
+                duration.text = "48"
+                duration.set('updated','yes')
+            elif note.text == "eighth":
+                duration.text = "24"
+                duration.set('updated','yes')
+            elif note.text == "16th":
+                duration.text = "12"
+                duration.set('updated','yes')
+            elif note.text == "32nd":
+                duration.text = "6"
+                duration.set('updated','yes')
+            elif note.text == "64th":
+                duration.text = "3"
+                duration.set('updated','yes')
+
 
 def parseFile(filename):
     tree = ET.parse(filename)
     measurelist = tree.findall("./part/measure")
-    divisions = tree.findtext("./part/measure/attributes/divisions")
+    divisions = tree.find("./part/measure/attributes/divisions")
     beats = tree.findtext("./part/measure/attributes/time/beats")
     staves = tree.findtext("./part/measure/attributes/staves")
-    if(staves == None):
-        staves = 1
+    if(staves != "2"):
+        print("Program only supports files with 2 staves (i.e. piano)")
+        sys.exit()
     for measure in measurelist:
-        splitBeats(measure,int(divisions),int(beats),int(staves))
-    #if divisions != "4":
-    #    for measurein measurelist:
-    #        clarifyDivisions(measure,int(divisions))
+        splitBeats(measure,int(divisions.text),int(beats),int(staves))
+        clarifyDivisions(measure)
 
+    divisions.text = "48"
     tree.write(filename,pretty_print=True)
 
 if __name__ == '__main__':
