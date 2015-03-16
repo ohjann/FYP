@@ -17,9 +17,9 @@ import os
 import lxml.etree as ET
 
 
-class SPEACOutline:
+class Outline:
     """ Markov generator for building a structure for
-        recombination of SPEAC IDs 
+        recombination of beats 
 
         Based on: http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/
         """
@@ -41,17 +41,24 @@ class SPEACOutline:
         return outlinelist
 
     def getAnOutline(self, fpath):
-        """ get a single SPEAC outline from a file """
-        speacoutline = ""
+        """ get a single (SPEAC,chord) outline from a file """
+        speacoutline = []
         tree = ET.parse(fpath)
         measurelist = tree.findall("./part/measure")
         for measure in measurelist:
             notelist = measure.findall("note/")
+            speac = ""
+            chord = ""
             for note in notelist:
                 if note.tag == "speac":
-                    speacoutline += " "+note.text[:2]
-        return speacoutline.split()
-
+                    speac = note.text.split()[0]
+                elif note.tag == "chordid":
+                    chord = note.text.split()[0]
+                if len(speac) and len(chord):
+                    speacoutline.append((speac,chord))
+                    speac = ""
+                    chord = ""
+        return speacoutline
    
     def triples(self):
         for outline in self.outlines:
@@ -69,16 +76,62 @@ class SPEACOutline:
             else:
                 self.cache[key] = [id3]
 
+    def testProgression(self, current, candidate):
+        chord1 = current[1]
+        chord2 = candidate[1]
+
+        if chord1 == "I":
+            return True
+
+        elif chord1 == "II":
+            if chord2 == "V" or chord2 == "VII" or chord2 == "II":
+                return True
+
+        elif chord1 == "III":
+            if chord2 == "IV" or chord2 == "VI" or chord2 == "III":
+                return True
+
+        elif chord1 == "IV":
+            if chord2 == "II" or chord2 == "V" or chord2 == "VII" or chord2 == "I" or chord2 == "IV":
+                return True
+
+        elif chord1 == "V":
+            if chord2 == "VII" or chord2 == "VI" or chord2 == "I" or chord2 == "V":
+                return True
+
+        elif chord1 == "VI":
+            if chord2 == "IV" or chord2 == "II" or chord2 == "VI":
+                return True
+
+        elif chord1 == "VII":
+            if chord2 == "VI" or chord2 == "I" or chord2 == "V" or chord2 == "VII":
+                return True
+
+        return False
+
     def generate_new(self, size=24):
         seed = random.randint(0, self.outline_size-3)
         ol1, ol2 = self.outlines[seed][0], self.outlines[seed+1][1]
         outline = []
-        for i in range(size):
-            outline.append(ol1)
-            ol1,ol2 = ol2, random.choice(self.cache[(ol1,ol2)])
-
+        outline.append(ol1)
+        attempts = 0 # if it can't find a good progression just choose a random one
+        while len(outline) < size: # get minimum size 
+            choice = random.choice(self.cache[(ol1,ol2)])
+            attempts += 1
+            if self.testProgression(ol2,choice) or attempts > 30:
+                ol1,ol2 = ol2, choice
+                outline.append(ol1)
+                attempts = 0
         outline.append(ol2)
-        return " ".join(outline)
+        while not(ol2[1] == "I" and (ol1[1] == "IV" or ol1[1] == "V" or ol1[1] == "VII")): # get cadence
+            choice = random.choice(self.cache[(ol1,ol2)])
+            attempts += 1
+            if self.testProgression(ol2,choice) or attempts > 30:
+                ol1,ol2 = ol2, choice
+                outline.append(ol1)
+                attempts = 0
+        outline.append(ol2)
+        return outline
 
 class speacBeats:
 
@@ -120,6 +173,9 @@ class speacBeats:
         for attr, value in self.__dict__.items():
             yield attr, value
             
+
+
+
 globalmeasure = 1
 def addToPiece(fourbeats,mxl):
     global globalmeasure 
@@ -127,12 +183,9 @@ def addToPiece(fourbeats,mxl):
     part = mxl.find("./part")
     measure = ET.Element("measure")
     measure.set("number",str(globalmeasure))
-    #barline = ET.fromstring('<barline location="right"><bar-style>light-heavy</bar-style><repeat direction="backward"/></barline>')
     for beat in fourbeats:
-        #notes = beat.findall("note")
         for note in beat:
             measure.append(note)
-    #        measure.append(barline)
     part.append(measure)
 
 def jigsaw(beats,outline):
@@ -140,8 +193,8 @@ def jigsaw(beats,outline):
     del bdict['dirname']
     mxlskeleton = ET.parse("mxl-skeleton.xml")
     measure = []
-    for ID in outline.split():
-        beat = random.choice(bdict[ID])
+    for ID in outline:
+        beat = random.choice(bdict[ID[0]])
         measure.append(beat)
 
         if len(measure)>=4 :
@@ -154,7 +207,7 @@ def generate():
     speacdir = pwd + "/../data/SPEAC"
     sheetdir = pwd + "/../data/clarified-scores"
 
-    outline = SPEACOutline(sheetdir)
+    outline = Outline(sheetdir)
     speacStructure = outline.generate_new(72)
     beats = speacBeats(speacdir)
 

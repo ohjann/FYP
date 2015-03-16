@@ -113,7 +113,7 @@ def splitBeats(measure,divisions,beats,staves):
             beatlength = 0
             clef = note[2]
 
-        beatlist[currentbeat].append((note[0][1],note[-1]))
+        beatlist[currentbeat].append((note[0][1],note[1],note[-1]))
         note[-1].getparent().set('beatnumber',str(globalbeat))
 
         if everynote.index(note) != len(everynote) -1:
@@ -124,20 +124,25 @@ def splitBeats(measure,divisions,beats,staves):
             beatlength -= 1
             currentbeat += 1
             globalbeat += 1
-    # print("global {0} beats {1} currentbeat {2}".format(globalbeat,beats,currentbeat))
     globalbeat += beats - currentbeat
 
     for beat in beatlist:
         if beat != []:
-            notelist, notexml = zip(*beat)
-            SPEAC = SPEACIDs.getSPEAC(notelist)
+            notelist, noteduration, notexml = zip(*beat)
+            SPEAC = SPEACIDs.getSPEAC(notelist,noteduration)
             speacxml = ET.Element('speac')
             speacxml.text = " ".join(SPEAC)
             speacxml.tail = "\n\t   "
             for xml in notexml:
                 xml.getparent().append(speacxml)
 
-##TODO: not working
+            tradIDs = SPEACIDs.getTrad(notelist, noteduration)
+            tradxml = ET.Element('chordid')
+            tradxml.text = " ".join(tradIDs)
+            tradxml.tail = "\n\t   "
+            for xml in notexml:
+                xml.getparent().append(tradxml)
+
 def clarifyDivisions(measure):
     duration = ET.Element("br")
     for note in measure.findall("./note/"):
