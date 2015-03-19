@@ -4,3 +4,4 @@ output.*
 venv/
 data/
 composition.xml
+doeverything.sh

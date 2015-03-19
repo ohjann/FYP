@@ -59,6 +59,10 @@ def SPEACIDsToList():
         IDs.append(ID[0])
     return IDs
 
+def checkEmpty(alist):
+    """ Returns true if the list is empty """
+    return all(x == '' for x in alist)
+    
 def getSPEAC(notes, duration):
 
     """ Compares passed notes to SPEAC identifiers.
@@ -67,6 +71,10 @@ def getSPEAC(notes, duration):
     :returns: list of SPEAC identifiers best matching passed notes
     :rtype: list[str]
     """
+
+    # make sure the passed list isn't empty (i.e. a bunch of rests)
+    if checkEmpty(notes):
+        return []
 
     SPEACcount = [0] * len(SPEACLists)
     for i in range(0, len(SPEACLists)):

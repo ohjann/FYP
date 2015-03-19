@@ -44,7 +44,7 @@ def ensureExistance(directory):
     for ID in speacIDList:
         if not os.path.exists(directory+ID+".xml"):
             f = open(directory+ID+".xml","w")
-            f.write("<speac>\n</speac>")
+            f.write("<beatlist>\n</beatlist>")
             f.close()
 
 
@@ -58,18 +58,27 @@ def writeToFile( SPEACdict ):
 
     for ID, notelist in SPEACdict.items():
         root = speacxml[ID].getroot()
-        root.set('ID', ID)
+        root.set('speacID', ID)
 
         beatElm = ET.Element('beat')
         beatElm.tail = "\n"
         backupin = False
+        emptyBeat = False
         for notes in notelist:
-            beatElm.append(notes)
+            if not notes.findall("rest") == []: 
+            # ensure there aren't any empty beats
+                emptyBeat = True
+                continue
             if notes.findtext("staff") == "2" and not backupin:
-                backup = ET.fromstring("<backup><duration>96</duration></backup>")
+                duration = notes.findtext("duration")
+                if int(duration) > 48: # fixing polyphony
+                    backup = ET.fromstring("<backup><duration>"+duration+"</duration></backup>")
+                else:
+                    backup = ET.fromstring("<backup><duration>48</duration></backup>")
                 beatElm.append(backup)
                 backupin = True
-        if len(beatElm):
+            beatElm.append(notes)
+        if len(beatElm) and not emptyBeat:
             root.append(beatElm)
 
         speacxml[ID].write(directory+ID+".xml",pretty_print=True)
@@ -84,8 +93,9 @@ def categorise( measure ):
             speac = n.find("speac")
             if speac != None:
                 break
-        ID = speac.text[:2]
-        SPEACdict[ID] = note
+        if speac != None:
+            ID = speac.text[:2]
+            SPEACdict[ID] = note
 
 def groupBeats( measure ):
     """ Groups beats into dictionarys where the beatnumber is the key

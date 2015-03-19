@@ -69,7 +69,7 @@
           </staff-layout>
         </print>
       <attributes>
-        <divisions>8</divisions>
+        <divisions>48</divisions>
         <key>
           <fifths>-2</fifths>
           <mode>major</mode>
@@ -269,6 +269,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="229.79" default-y="-135.00" beatnumber="2">
         <pitch>
@@ -296,6 +298,8 @@
 	   <speac>C1 C4 C2 E1 C3 E2</speac>
 	   <speac>C1 C4 C2 E1 C3 E2</speac>
 	   <speac>C1 C4 C2 E1 C3 E2</speac>
+	   <speac>C1 C4 C3 E2</speac>
+	   <chordid>I III</chordid>
 	   </note>
       <note default-x="255.89" default-y="-140.00" beatnumber="3">
         <pitch>
@@ -311,6 +315,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="281.99" default-y="-145.00" beatnumber="4">
         <pitch>
@@ -337,6 +343,8 @@
 	   <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1 A1 A2 P2 S2</speac>
+	   <chordid>II IV</chordid>
 	   </note>
       </measure>
     <measure number="2" width="274.09">
@@ -567,6 +575,8 @@
         <speac>A1 A2 P2 S1 A3</speac>
 	   <speac>A1 A2 P2 S1 A3</speac>
 	   <speac>A1 A2 P2 S1 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="170.22" default-y="-145.00" beatnumber="7">
         <pitch>
@@ -593,6 +603,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="200.36" default-y="-150.00" beatnumber="8">
         <pitch>
@@ -609,6 +621,8 @@
         <speac>P1 A1 A2 P2</speac>
 	   <speac>P1 A1 A2 P2</speac>
 	   <speac>P1 A1 A2 P2</speac>
+	   <speac>P1 P2</speac>
+	   <chordid>II IV</chordid>
 	   </note>
       <note default-x="230.49" default-y="-160.00" beatnumber="5">
         <pitch>
@@ -635,6 +649,8 @@
 	   <speac>C4</speac>
 	   <speac>C4</speac>
 	   <speac>C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       </measure>
     <measure number="3" width="245.21">
@@ -832,6 +848,8 @@
         <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
+	   <speac>C1 A1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="157.36" default-y="-175.00" beatnumber="10">
         <pitch>
@@ -858,6 +876,8 @@
 	   <speac>C1 A1 A2 C4 C2 S3 C3 A3</speac>
 	   <speac>C1 A1 A2 C4 C2 S3 C3 A3</speac>
 	   <speac>C1 A1 A2 C4 C2 S3 C3 A3</speac>
+	   <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
 	   </note>
       <note default-x="186.11" default-y="-160.00" beatnumber="11">
         <pitch>
@@ -873,6 +893,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="214.86" default-y="-165.00" beatnumber="12">
         <pitch>
@@ -900,6 +922,8 @@
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
+	   <speac>P1 A1 P2</speac>
+	   <chordid>II IV</chordid>
 	   </note>
       </measure>
     <measure number="4" width="270.66">
@@ -1152,6 +1176,8 @@
         <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="42.36" default-y="-175.00" beatnumber="14">
         <pitch>
@@ -1178,6 +1204,8 @@
 	   <speac>P2</speac>
 	   <speac>P2</speac>
 	   <speac>P2</speac>
+	   <speac>A1</speac>
+	   <chordid>II V VII</chordid>
 	   </note>
       <note default-x="71.97" default-y="-170.00" beatnumber="15">
         <pitch>
@@ -1204,6 +1232,8 @@
 	   <speac>C1 A1 C4 C3 E2</speac>
 	   <speac>C1 A1 C4 C3 E2</speac>
 	   <speac>C1 A1 C4 C3 E2</speac>
+	   <speac>C1 A1 C4 C3 E2</speac>
+	   <chordid>I III V VII</chordid>
 	   </note>
       <note default-x="131.18" default-y="-175.00" beatnumber="16">
         <pitch>
@@ -1229,6 +1259,8 @@
 	   <speac>P1 P2</speac>
 	   <speac>P1 P2</speac>
 	   <speac>P1 P2</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       </measure>
     <measure number="5" width="576.00">
@@ -1734,6 +1766,8 @@
         <speac>C1 A1 C4 C2 C3</speac>
 	   <speac>C1 A1 C4 C2 C3</speac>
 	   <speac>C1 A1 C4 C2 C3</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       <note default-x="370.89" default-y="-145.00" beatnumber="17">
         <pitch>
@@ -1760,6 +1794,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III V VII</chordid>
 	   </note>
       <note default-x="429.76" default-y="-130.00" beatnumber="18">
         <pitch>
@@ -1776,6 +1812,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="508.16" default-y="-135.00" beatnumber="19">
         <pitch>
@@ -1802,6 +1840,8 @@
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="6" width="523.65">
@@ -2366,6 +2406,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III</chordid>
 	   </note>
       <direction placement="above">
         <direction-type>
@@ -2399,6 +2441,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="380.28" default-y="-135.00" beatnumber="22">
         <pitch>
@@ -2416,6 +2460,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="449.15" default-y="-145.00" beatnumber="23">
         <pitch>
@@ -2442,6 +2488,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="7" width="520.88">
@@ -2924,6 +2972,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="360.53" default-y="-155.00" beatnumber="28">
         <pitch>
@@ -2950,6 +3000,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="423.50" default-y="-140.00" beatnumber="25">
         <pitch>
@@ -2965,6 +3017,8 @@
         <speac>A1 P2</speac>
 	   <speac>A1 P2</speac>
 	   <speac>A1 P2</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       <direction placement="above">
         <direction-type>
@@ -2998,6 +3052,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       </measure>
     <measure number="8" width="305.35">
@@ -3296,6 +3352,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="193.81" default-y="-135.00" beatnumber="29">
         <pitch>
@@ -3312,6 +3370,8 @@
         <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="226.87" default-y="-140.00" beatnumber="30">
         <pitch>
@@ -3338,6 +3398,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="259.92" default-y="-145.00" beatnumber="31">
         <pitch>
@@ -3364,6 +3426,8 @@
 	   <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       </measure>
     <measure number="9" width="273.42">
@@ -3601,6 +3665,8 @@
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>II IV</chordid>
 	   </note>
       <note default-x="167.19" default-y="-125.00" beatnumber="33">
         <pitch>
@@ -3616,6 +3682,8 @@
         <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>A1</speac>
+	   <chordid>I IV</chordid>
 	   </note>
       <note default-x="198.23" default-y="-130.00" beatnumber="34">
         <pitch>
@@ -3642,6 +3710,8 @@
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="229.26" default-y="-135.00" beatnumber="35">
         <pitch>
@@ -3669,6 +3739,8 @@
 	   <speac>C2 E1</speac>
 	   <speac>C2 E1</speac>
 	   <speac>C2 E1</speac>
+	   <speac>C2 E1</speac>
+	   <chordid>VI</chordid>
 	   </note>
       </measure>
     <measure number="10" width="374.92">
@@ -3965,6 +4037,8 @@
         <speac>P2 C2 S1</speac>
 	   <speac>P2 C2 S1</speac>
 	   <speac>P2 C2 S1</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       <note default-x="260.59" default-y="-140.00" beatnumber="38">
         <pitch>
@@ -3991,6 +4065,8 @@
 	   <speac>P1 A1 A2 A3</speac>
 	   <speac>P1 A1 A2 A3</speac>
 	   <speac>P1 A1 A2 A3</speac>
+	   <speac>P1 A1 A2 A3</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="307.26" default-y="-135.00" beatnumber="39">
         <pitch>
@@ -4007,6 +4083,8 @@
         <speac>C4</speac>
 	   <speac>C4</speac>
 	   <speac>C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="340.29" default-y="-145.00" beatnumber="40">
         <pitch>
@@ -4033,6 +4111,8 @@
 	   <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="11" width="348.28">
@@ -4505,6 +4585,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="215.80" default-y="-145.00" beatnumber="42">
         <pitch>
@@ -4531,6 +4613,8 @@
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="258.89" default-y="-130.00" beatnumber="43">
         <pitch>
@@ -4546,6 +4630,8 @@
         <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="301.97" default-y="-125.00" beatnumber="44">
         <pitch>
@@ -4572,6 +4658,8 @@
 	   <speac>A1 C4 P2 C2 E1</speac>
 	   <speac>A1 C4 P2 C2 E1</speac>
 	   <speac>A1 C4 P2 C2 E1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       </measure>
     <measure number="12" width="376.45">
@@ -5076,6 +5164,8 @@
         <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="231.19" default-y="-150.00" beatnumber="47">
         <pitch>
@@ -5103,6 +5193,8 @@
 	   <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
 	   <speac>C1 P1 A1 C3</speac>
+	   <speac>A1</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="276.86" default-y="-115.00" beatnumber="48">
         <pitch>
@@ -5119,6 +5211,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="322.52" default-y="-120.00" beatnumber="45">
         <pitch>
@@ -5147,6 +5241,8 @@
 	   <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       </measure>
     <measure number="13" width="560.67">
@@ -5600,6 +5696,8 @@
         <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="387.38" default-y="-170.00" beatnumber="49">
         <pitch>
@@ -5627,6 +5725,8 @@
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="448.70" default-y="-175.00" beatnumber="50">
         <pitch>
@@ -5642,6 +5742,8 @@
         <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>II IV V VII</chordid>
 	   </note>
       <note default-x="510.02" default-y="-145.00" beatnumber="51">
         <pitch>
@@ -5668,6 +5770,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="14" width="538.98">
@@ -6126,6 +6230,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="365.53" default-y="-165.00" beatnumber="56">
         <pitch>
@@ -6152,6 +6258,8 @@
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
+	   <speac>A1</speac>
+	   <chordid>II IV</chordid>
 	   </note>
       <note default-x="437.89" default-y="-150.00" beatnumber="53">
         <pitch>
@@ -6168,6 +6276,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="487.63" default-y="-140.00" beatnumber="54">
         <pitch>
@@ -6194,6 +6304,8 @@
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       </measure>
     <measure number="15" width="606.22">
@@ -6745,6 +6857,8 @@
         <speac>C4</speac>
 	   <speac>C4</speac>
 	   <speac>C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="433.04" default-y="-140.00" beatnumber="58">
         <pitch>
@@ -6771,6 +6885,8 @@
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="514.74" default-y="-135.00" beatnumber="59">
         <pitch>
@@ -6787,6 +6903,8 @@
         <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="559.68" default-y="-145.00" beatnumber="60">
         <pitch>
@@ -6813,6 +6931,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>P1 P2 C2</speac>
+	   <chordid>II IV VI</chordid>
 	   </note>
       </measure>
     <measure number="16" width="493.43">
@@ -7272,6 +7392,8 @@
         <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="323.75" default-y="-145.00" beatnumber="62">
         <pitch>
@@ -7298,6 +7420,8 @@
 	   <speac>C1 A1 P2 C2 C3</speac>
 	   <speac>C1 A1 P2 C2 C3</speac>
 	   <speac>C1 A1 P2 C2 C3</speac>
+	   <speac>P2 C2</speac>
+	   <chordid>II VI</chordid>
 	   </note>
       <note default-x="386.29" default-y="-140.00" beatnumber="63">
         <pitch>
@@ -7313,6 +7437,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="429.29" default-y="-135.00" beatnumber="64">
         <pitch>
@@ -7340,6 +7466,8 @@
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>III V VII</chordid>
 	   </note>
       </measure>
     <measure number="17" width="575.96">
@@ -7662,6 +7790,8 @@
         <speac>P2</speac>
 	   <speac>P2</speac>
 	   <speac>P2</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="365.68" default-y="-145.00" beatnumber="67">
         <pitch>
@@ -7688,6 +7818,8 @@
 	   <speac>C1 P1 C2 C3 E4</speac>
 	   <speac>C1 P1 C2 C3 E4</speac>
 	   <speac>C1 P1 C2 C3 E4</speac>
+	   <speac>C1 P1 C2 C3 E4</speac>
+	   <chordid>I IV VI</chordid>
 	   </note>
       <note default-x="435.24" default-y="-150.00" beatnumber="68">
         <pitch>
@@ -7704,6 +7836,8 @@
         <speac>A1 A2 C4 S3</speac>
 	   <speac>A1 A2 C4 S3</speac>
 	   <speac>A1 A2 C4 S3</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="504.80" default-y="-155.00" beatnumber="65">
         <pitch>
@@ -7730,6 +7864,8 @@
 	   <speac>P1 C2</speac>
 	   <speac>P1 C2</speac>
 	   <speac>P1 C2</speac>
+	   <speac>P1 A1 A2 A3</speac>
+	   <chordid>IV</chordid>
 	   </note>
       </measure>
     <measure number="18" width="523.69">
@@ -8085,6 +8221,8 @@
         <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="337.89" default-y="-160.00" beatnumber="71">
         <pitch>
@@ -8111,6 +8249,8 @@
 	   <speac>C1 A1 C4 P2 C2 E1 C3 E2</speac>
 	   <speac>C1 A1 C4 P2 C2 E1 C3 E2</speac>
 	   <speac>C1 A1 C4 P2 C2 E1 C3 E2</speac>
+	   <speac>C1 C4 C3 E2</speac>
+	   <chordid>I III</chordid>
 	   </note>
       <note default-x="394.57" default-y="-165.00" beatnumber="72">
         <pitch>
@@ -8128,6 +8268,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="451.25" default-y="-175.00" beatnumber="69">
         <pitch>
@@ -8154,6 +8296,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C1 A1 C4 C2 C3</speac>
+	   <chordid>I III V VI VII</chordid>
 	   </note>
       </measure>
     <measure number="19" width="572.81">
@@ -8694,6 +8838,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="376.68" default-y="-145.00" beatnumber="76">
         <pitch>
@@ -8720,6 +8866,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="456.94" default-y="-140.00" beatnumber="73">
         <pitch>
@@ -8735,6 +8883,8 @@
         <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="498.70" default-y="-135.00" beatnumber="74">
         <pitch>
@@ -8762,6 +8912,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III</chordid>
 	   </note>
       </measure>
     <measure number="20" width="526.83">
@@ -9270,6 +9422,8 @@
         <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="340.37" default-y="-175.00" beatnumber="77">
         <pitch>
@@ -9296,6 +9450,8 @@
 	   <speac>P1 A1</speac>
 	   <speac>P1 A1</speac>
 	   <speac>P1 A1</speac>
+	   <speac>A1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="416.76" default-y="-170.00" beatnumber="78">
         <pitch>
@@ -9312,6 +9468,8 @@
         <speac>P2</speac>
 	   <speac>P2</speac>
 	   <speac>P2</speac>
+	   <speac>P1 C2</speac>
+	   <chordid>IV VI</chordid>
 	   </note>
       <note default-x="455.86" default-y="-180.00" beatnumber="79">
         <pitch>
@@ -9338,6 +9496,8 @@
 	   <speac>C2</speac>
 	   <speac>C2</speac>
 	   <speac>C2</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       </measure>
     <measure number="21" width="536.87">
@@ -9838,6 +9998,8 @@
         <speac>C1 P1 A1 C2 C3</speac>
 	   <speac>C1 P1 A1 C2 C3</speac>
 	   <speac>C1 P1 A1 C2 C3</speac>
+	   <speac>C1 A1 C4 C3</speac>
+	   <chordid>I III</chordid>
 	   </note>
       <note default-x="378.38" default-y="-130.00" beatnumber="82">
         <pitch>
@@ -9866,6 +10028,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note beatnumber="83">
         <rest/>
@@ -9876,6 +10040,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="482.97" default-y="-130.00" beatnumber="84">
         <pitch>
@@ -9902,6 +10068,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>II</chordid>
 	   </note>
       </measure>
     <measure number="22" width="562.78">
@@ -10565,6 +10733,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="289.07" default-y="-135.00" beatnumber="87">
         <pitch>
@@ -10585,6 +10755,8 @@
         <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="354.50" default-y="-140.00" beatnumber="88">
         <pitch>
@@ -10611,6 +10783,8 @@
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>C1 A1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="419.93" default-y="-145.00" beatnumber="85">
         <pitch>
@@ -10640,6 +10814,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>II IV V VII</chordid>
 	   </note>
       </measure>
     <measure number="23" width="1099.65">
@@ -11288,6 +11464,8 @@
         <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="756.54" default-y="-155.00" beatnumber="92">
         <pitch>
@@ -11314,6 +11492,8 @@
 	   <speac>C2</speac>
 	   <speac>C2</speac>
 	   <speac>C2</speac>
+	   <speac>P2 C2</speac>
+	   <chordid>II VI</chordid>
 	   </note>
       <note default-x="870.38" default-y="-150.00" beatnumber="89">
         <pitch>
@@ -11330,6 +11510,8 @@
         <speac>C2</speac>
 	   <speac>C2</speac>
 	   <speac>C2</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       <note default-x="984.21" default-y="-165.00" beatnumber="90">
         <pitch>
@@ -11358,6 +11540,8 @@
 	   <speac>P1 C2</speac>
 	   <speac>P1 C2</speac>
 	   <speac>P1 C2</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       </measure>
     <measure number="24" width="642.68">
@@ -11845,6 +12029,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="431.90" default-y="-130.00" beatnumber="95">
         <pitch>
@@ -11861,6 +12047,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="501.63" default-y="-135.00" beatnumber="96">
         <pitch>
@@ -11888,6 +12076,8 @@
 	   <speac>P1 A1 A2 P2 C2</speac>
 	   <speac>P1 A1 A2 P2 C2</speac>
 	   <speac>P1 A1 A2 P2 C2</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="571.35" default-y="-140.00" beatnumber="93">
         <pitch>
@@ -11914,6 +12104,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       </measure>
     <measure number="25" width="456.96">
@@ -12263,6 +12455,8 @@
 	   <speac>C1 P1 C3</speac>
 	   <speac>C1 P1 C3</speac>
 	   <speac>C1 P1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <direction placement="above">
         <direction-type>
@@ -12285,6 +12479,8 @@
         <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="339.03" default-y="-130.00" beatnumber="99">
         <pitch>
@@ -12312,6 +12508,8 @@
 	   <speac>C1 P1 A1 A2 C4 C2 S3 C3</speac>
 	   <speac>C1 P1 A1 A2 C4 C2 S3 C3</speac>
 	   <speac>C1 P1 A1 A2 C4 C2 S3 C3</speac>
+	   <speac>C1 P1 C2 C3</speac>
+	   <chordid>I IV VI</chordid>
 	   </note>
       <note default-x="397.19" default-y="-135.00" beatnumber="100">
         <pitch>
@@ -12339,6 +12537,8 @@
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       </measure>
     <measure number="26" width="555.06">
@@ -12697,6 +12897,8 @@
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="368.87" default-y="-135.00" beatnumber="102">
         <pitch>
@@ -12713,6 +12915,8 @@
         <speac>A1 A2 P2 A3</speac>
 	   <speac>A1 A2 P2 A3</speac>
 	   <speac>A1 A2 P2 A3</speac>
+	   <speac>A1 A2 P2 A3</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="430.40" default-y="-155.00" beatnumber="103">
         <pitch>
@@ -12741,6 +12945,8 @@
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
 	   <speac>P1 A1 P2</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="491.93" default-y="-145.00" beatnumber="104">
         <pitch>
@@ -12767,6 +12973,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="27" width="544.59">
@@ -13127,6 +13335,8 @@
         <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="338.77" default-y="-130.00" beatnumber="107">
         <pitch>
@@ -13153,6 +13363,8 @@
 	   <speac>P2</speac>
 	   <speac>P2</speac>
 	   <speac>P2</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="408.48" default-y="-125.00" beatnumber="108">
         <pitch>
@@ -13173,6 +13385,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III V VII</chordid>
 	   </note>
       <note default-x="456.41" default-y="-160.00" beatnumber="105">
         <pitch>
@@ -13199,6 +13413,8 @@
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="28" width="579.39">
@@ -13608,6 +13824,8 @@
         <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
 	   <speac>A1 A2 A3</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="332.12" default-y="-155.00" beatnumber="109">
         <pitch>
@@ -13635,6 +13853,8 @@
 	   <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>P1</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="396.77" default-y="-175.00" beatnumber="110">
         <pitch>
@@ -13650,6 +13870,8 @@
         <speac>C2</speac>
 	   <speac>C2</speac>
 	   <speac>C2</speac>
+	   <speac>C1 A1 C3</speac>
+	   <chordid>I V VII</chordid>
 	   </note>
       <note default-x="461.42" default-y="-140.00" beatnumber="111">
         <pitch>
@@ -13679,6 +13901,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       </measure>
     <measure number="29" width="520.26">
@@ -14118,6 +14342,8 @@
         <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
 	   <speac>C1 A1 C3</speac>
+	   <speac>A1</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="308.17" default-y="-145.00" beatnumber="116">
         <pitch>
@@ -14144,6 +14370,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>I III V VII</chordid>
 	   </note>
       <note default-x="375.53" default-y="-130.00" beatnumber="113">
         <pitch>
@@ -14160,6 +14388,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="442.89" default-y="-135.00" beatnumber="114">
         <pitch>
@@ -14188,6 +14418,8 @@
 	   <speac>A1 A2 C2 A3</speac>
 	   <speac>A1 A2 C2 A3</speac>
 	   <speac>A1 A2 C2 A3</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       </measure>
     <measure number="30" width="593.80">
@@ -14782,6 +15014,8 @@
         <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>A1</speac>
+	   <chordid>II IV V VII</chordid>
 	   </note>
       <note default-x="389.13" default-y="-140.00" beatnumber="118">
         <pitch>
@@ -14808,6 +15042,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="450.38" default-y="-135.00" beatnumber="119">
         <pitch>
@@ -14824,6 +15060,8 @@
         <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="519.28" default-y="-145.00" beatnumber="120">
         <pitch>
@@ -14850,6 +15088,8 @@
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       </measure>
     <measure number="31" width="505.85">
@@ -15298,6 +15538,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="317.43" default-y="-155.00" beatnumber="124">
         <pitch>
@@ -15324,6 +15566,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="393.44" default-y="-140.00" beatnumber="121">
         <pitch>
@@ -15339,6 +15583,8 @@
         <speac>P2</speac>
 	   <speac>P2</speac>
 	   <speac>P2</speac>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
 	   </note>
       <note default-x="439.89" default-y="-175.00" beatnumber="122">
         <pitch>
@@ -15365,6 +15611,8 @@
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
 	   <speac>C1 C2 C3</speac>
+	   <speac>C2</speac>
+	   <chordid>VI</chordid>
 	   </note>
       </measure>
     <measure number="32" width="1099.65">
@@ -15962,6 +16210,8 @@
         <speac>P1</speac>
 	   <speac>P1</speac>
 	   <speac>P1</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>IV</chordid>
 	   </note>
       <note default-x="949.30" default-y="-140.00" beatnumber="128">
         <pitch>
@@ -15978,6 +16228,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="1023.67" default-y="-135.00" beatnumber="125">
         <pitch>
@@ -16006,6 +16258,8 @@
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
 	   <speac>A1 C4</speac>
+	   <speac>A1 C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       <backup>
         <duration>32</duration>
@@ -16038,6 +16292,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       </measure>
     <measure number="33" width="719.96">
@@ -16665,6 +16921,8 @@
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
 	   <speac>C1 C3</speac>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
 	   </note>
       <note default-x="500.48" default-y="-150.00" beatnumber="130">
         <pitch>
@@ -16692,6 +16950,8 @@
 	   <speac>C4</speac>
 	   <speac>C4</speac>
 	   <speac>C4</speac>
+	   <speac>C4</speac>
+	   <chordid>III</chordid>
 	   </note>
       <note default-x="583.93" default-y="-140.00" beatnumber="131">
         <pitch>
@@ -16707,6 +16967,8 @@
         <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <note default-x="634.92" default-y="-175.00" beatnumber="132">
         <pitch>
@@ -16733,6 +16995,8 @@
 	   <speac>A1 P2</speac>
 	   <speac>A1 P2</speac>
 	   <speac>A1 P2</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       </measure>
     <measure number="34" width="379.68">
@@ -16939,6 +17203,8 @@
         <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
 	   <speac>C1 C4 C3</speac>
+	   <speac>C1 C4 C3</speac>
+	   <chordid>I III</chordid>
 	   </note>
       <note default-x="245.39" default-y="-130.00" beatnumber="135">
         <pitch>
@@ -16968,6 +17234,8 @@
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
 	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>II V VII</chordid>
 	   </note>
       <note default-x="278.73" default-y="-125.00" beatnumber="136">
         <pitch>
@@ -16993,6 +17261,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <backup>
         <duration>32</duration>
@@ -17020,6 +17290,8 @@
 	   <speac>A1</speac>
 	   <speac>A1</speac>
 	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
 	   </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

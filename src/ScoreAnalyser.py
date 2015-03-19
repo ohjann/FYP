@@ -130,6 +130,8 @@ def splitBeats(measure,divisions,beats,staves):
         if beat != []:
             notelist, noteduration, notexml = zip(*beat)
             SPEAC = SPEACIDs.getSPEAC(notelist,noteduration)
+            if SPEAC == []:
+                continue
             speacxml = ET.Element('speac')
             speacxml.text = " ".join(SPEAC)
             speacxml.tail = "\n\t   "
@@ -145,31 +147,37 @@ def splitBeats(measure,divisions,beats,staves):
 
 def clarifyDivisions(measure):
     duration = ET.Element("br")
+    dotted = 1
     for note in measure.findall("./note/"):
+
+        if note.findall("dot") != None:
+            dotted = 2
+
         if note.tag == "duration":
             duration = note
         elif note.tag == "type":
             if note.text == "whole":
-                duration.text = "192"
+                duration.text = str(int(192 + 192/dotted))
                 duration.set('updated','yes')
             elif note.text == "half":
-                duration.text = "96"
+                duration.text = str(int(96 + 96/dotted))
                 duration.set('updated','yes')
             elif note.text == "quarter":
-                duration.text = "48"
+                duration.text = str(int(48 + 48/dotted))
                 duration.set('updated','yes')
             elif note.text == "eighth":
-                duration.text = "24"
+                duration.text = str(int(24 + 24/dotted))
                 duration.set('updated','yes')
             elif note.text == "16th":
-                duration.text = "12"
+                duration.text = str(int(12 + 12/dotted))
                 duration.set('updated','yes')
             elif note.text == "32nd":
-                duration.text = "6"
+                duration.text = str(int(6 + 6/dotted))
                 duration.set('updated','yes')
             elif note.text == "64th":
-                duration.text = "3"
+                duration.text = str(int(3 + 3/dotted))
                 duration.set('updated','yes')
+        dotted = 1
 
 
 def parseFile(filename):

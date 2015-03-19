@@ -51,7 +51,8 @@ class Outline:
             chord = ""
             for note in notelist:
                 if note.tag == "speac":
-                    speac = note.text.split()[0]
+                    if not note.text == None:
+                        speac = note.text.split()[0]
                 elif note.tag == "chordid":
                     chord = note.text.split()[0]
                 if len(speac) and len(chord):
@@ -185,7 +186,9 @@ def addToPiece(fourbeats,mxl):
     measure.set("number",str(globalmeasure))
     for beat in fourbeats:
         for note in beat:
+            print("Note: ",note)
             measure.append(note)
+    print()
     part.append(measure)
 
 def jigsaw(beats,outline):
@@ -194,10 +197,14 @@ def jigsaw(beats,outline):
     mxlskeleton = ET.parse("mxl-skeleton.xml")
     measure = []
     for ID in outline:
+        #print(ID[0],bdict[ID[0]])
         beat = random.choice(bdict[ID[0]])
-        measure.append(beat)
+        if len(beat): # XXX why is this happening
+            measure.append(beat)
+        #print(ET.tostring(beat), len(beat))
 
         if len(measure)>=4 :
+           print("adding")
            addToPiece(measure,mxlskeleton)
            measure = []
     return mxlskeleton
