@@ -1,0 +1,5856 @@
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise>
+  <identification>
+    <encoding>
+      <software>MuseScore 1.2</software>
+      <encoding-date>2012-10-25</encoding-date>
+      </encoding>
+    </identification>
+  <defaults>
+    <scaling>
+      <millimeters>6.35</millimeters>
+      <tenths>40</tenths>
+      </scaling>
+    <page-layout>
+      <page-height>1870.87</page-height>
+      <page-width>1322.83</page-width>
+      <page-margins type="both">
+        <left-margin>120</left-margin>
+        <right-margin>80</right-margin>
+        <top-margin>80</top-margin>
+        <bottom-margin>80</bottom-margin>
+        </page-margins>
+      </page-layout>
+    </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Piano</part-name>
+      <score-instrument id="P1-I3">
+        <instrument-name>Piano</instrument-name>
+        </score-instrument>
+      <midi-instrument id="P1-I3">
+        <midi-channel>1</midi-channel>
+        <midi-program>1</midi-program>
+        <volume>78.7402</volume>
+        <pan>0</pan>
+        </midi-instrument>
+      </score-part>
+    </part-list>
+  <part id="P1">
+    <measure width="207.51">
+      <print>
+        <system-layout>
+          <system-margins>
+            <left-margin>101.42</left-margin>
+            <right-margin>0.00</right-margin>
+            </system-margins>
+          <top-system-distance>180.00</top-system-distance>
+          </system-layout>
+        <staff-layout number="2">
+          <staff-distance>65.00</staff-distance>
+          </staff-layout>
+        </print>
+      <attributes>
+        <divisions>48</divisions>
+        <key>
+          <fifths>0</fifths>
+          <mode>major</mode>
+          </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+          </time>
+        <staves>2</staves>
+        <clef number="1">
+          <sign>G</sign>
+          <line>2</line>
+          </clef>
+        <clef number="2">
+          <sign>F</sign>
+          <line>4</line>
+          </clef>
+        </attributes>
+      </measure>
+    <measure number="2"><note default-x="143.10" default-y="-25.00" beatnumber="104">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="174.67" default-y="-20.00" beatnumber="104">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="143.10" default-y="-130.00" beatnumber="104">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="174.67" default-y="-140.00" beatnumber="104">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1 C4</speac>
+	   <chordid>III V VII</chordid>
+	   </note>
+      <note default-x="355.21" default-y="-20.00" beatnumber="28">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="405.36" default-y="5.00" beatnumber="28">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="355.21" default-y="-90.00" beatnumber="28">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="380.28" default-y="-110.00" beatnumber="28">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="405.36" default-y="-90.00" beatnumber="28">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="430.43" default-y="-80.00" beatnumber="28">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="319.48" default-y="0.00" dynamics="71.11" beatnumber="63">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <slur number="1" type="start"/>
+          </notations>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="357.91" default-y="-105.00" dynamics="71.11" beatnumber="63">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="396.35" default-y="-100.00" dynamics="71.11" beatnumber="63">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="434.78" default-y="-95.00" dynamics="71.11" beatnumber="63">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note default-x="400.69" default-y="-5.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+      <backup><duration>144</duration></backup><note default-x="400.69" default-y="-155.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>5</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <speac>C1 P1 C2 C3 E4 P3</speac>
+	   <chordid>I IV VI</chordid>
+	   </note>
+      </measure><measure number="3"><note default-x="12.00" default-y="-5.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="49.32" default-y="0.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="86.64" default-y="-5.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="123.96" default-y="-10.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-130.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="86.64" default-y="-130.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="123.96" default-y="-135.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">1</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1 C2 E4</speac>
+	   <chordid>IV VI</chordid>
+	   </note>
+      <note default-x="145.01" default-y="-35.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="178.26" default-y="-40.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="145.01" default-y="-125.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="178.26" default-y="-130.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 P1 A1 C4 C2 C3 E4</speac>
+	   <chordid>I III IV V VI VII</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-5.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="48.75" default-y="-10.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="85.49" default-y="-15.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="122.24" default-y="-10.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-110.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="48.75" default-y="-115.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="85.49" default-y="-120.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="122.24" default-y="-125.00" beatnumber="13">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 A1 C4 P2 C2 E1 C3 E2</speac>
+	   <chordid>I II III VI</chordid>
+	   </note>
+      <note default-x="95.33" default-y="-40.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="165.65" default-y="-35.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="95.33" default-y="-115.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">forward hook</beam>
+        </note>
+      <note default-x="130.49" default-y="-120.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="200.81" default-y="-125.00" beatnumber="127">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      </measure><measure number="4"><note default-x="12.00" default-y="-35.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">forward hook</beam>
+        </note>
+      <note default-x="46.12" default-y="0.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="114.37" default-y="-10.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-160.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">1</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="80.25" default-y="-135.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="483.79" default-y="-5.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="584.97" default-y="-10.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="483.79" default-y="-105.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="546.05" default-y="-140.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>III</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-20.00" beatnumber="58">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="60.96" default-y="-35.00" beatnumber="58">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="109.91" default-y="-45.00" beatnumber="58">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="158.87" default-y="-55.00" beatnumber="58">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>72</duration></backup><note default-x="12.00" default-y="-135.00" beatnumber="58">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="161.60" default-y="-5.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="199.00" default-y="0.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="236.40" default-y="-10.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="273.80" default-y="-5.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="161.60" default-y="-130.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="236.40" default-y="-125.00" beatnumber="22">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P1 A1 A2 C2 E4 A3</speac>
+	   <chordid>IV V VI VII</chordid>
+	   </note>
+      </measure><measure number="5"><note default-x="328.08" default-y="10.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="391.30" default-y="-15.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="328.08" default-y="-95.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="391.30" default-y="-75.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="430.81" default-y="-80.00" beatnumber="47">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note default-x="373.08" default-y="-10.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="405.73" default-y="0.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="426.14" default-y="-5.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="446.54" default-y="-10.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="466.95" default-y="-5.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="487.36" default-y="0.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>72</duration></backup><note default-x="373.08" default-y="-100.00" beatnumber="3">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>C1 C3</speac>
+	   <chordid>I</chordid>
+	   </note>
+      <note default-x="330.27" default-y="5.00" beatnumber="5">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <speac>C1 P1 C2 C3 E4 P3</speac>
+	   <chordid>I IV VI</chordid>
+	   </note>
+      <note beatnumber="18" default-x="75.53" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <speac>C1 C4 C2 S3 E1 C3 E2</speac>
+	   <chordid>I III VI</chordid>
+	   </note>
+      </measure><measure number="6"><note default-x="184.06" default-y="0.00" beatnumber="98">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="150.61" default-y="-90.00" beatnumber="98">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="523.07" default-y="5.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="556.37" default-y="15.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="577.18" default-y="10.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="597.99" default-y="5.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="618.80" default-y="10.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="639.61" default-y="15.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="523.07" default-y="-85.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="639.61" default-y="-90.00" beatnumber="52">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note default-x="238.91" default-y="10.00" beatnumber="74">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="193.53" default-y="-125.00" beatnumber="74">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>III V VII</chordid>
+	   </note>
+      <note default-x="16.80" default-y="10.00" beatnumber="41">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="47.16" default-y="0.00" beatnumber="41">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="77.52" default-y="-10.00" beatnumber="41">
+        <pitch>
+          <step>D</step>
+          <alter>1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="102.97" default-y="0.00" beatnumber="41">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="16.80" default-y="-115.00" beatnumber="41">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="77.52" default-y="-105.00" beatnumber="41">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>P2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      </measure><measure number="7"><backup><duration>48</duration></backup><note default-x="298.05" default-y="-135.00" beatnumber="28">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="323.59" default-y="-140.00" beatnumber="28">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="349.13" default-y="-135.00" beatnumber="28">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="374.67" default-y="-145.00" beatnumber="28">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
+	   </note>
+      <note default-x="251.25" default-y="0.00" beatnumber="126">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="251.25" default-y="-140.00" beatnumber="126">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="325.97" default-y="-135.00" beatnumber="126">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1</speac>
+	   <chordid>II V VII</chordid>
+	   </note>
+      <note beatnumber="49" default-x="88.13" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+      <note beatnumber="49" default-x="194.83" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note beatnumber="49" default-x="224.47" default-y="-5.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <speac>C1 A1 A2 C4 P2 C2 S1 S3 E1 C3 E2 A3 S2</speac>
+	   <chordid>I II III V VI VII</chordid>
+	   </note>
+      <backup><duration>144</duration></backup><note beatnumber="49" default-x="88.13" default-y="-100.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>5</voice>
+        <type>half</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
+	   <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
+	   </note>
+      <note default-x="92.40" default-y="-35.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="167.88" default-y="-25.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="92.40" default-y="-105.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="130.14" default-y="-90.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="167.88" default-y="-95.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="205.62" default-y="-100.00" beatnumber="73">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      </measure><measure number="8"><note default-x="475.68" default-y="5.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="552.96" default-y="-20.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="475.68" default-y="-120.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="514.32" default-y="-125.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="552.96" default-y="-120.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="591.60" default-y="-130.00" beatnumber="56">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C2</speac>
+	   <chordid>VI</chordid>
+	   </note>
+      <backup><duration>48</duration></backup><note default-x="138.30" default-y="-120.00" beatnumber="95">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="169.87" default-y="-125.00" beatnumber="95">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 P1 A1 A2 P2 C2 S1 C3 E4 A3 P3 S2</speac>
+	   <chordid>I II IV V VI VII</chordid>
+	   </note>
+      <note default-x="65.33" default-y="-5.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="91.83" default-y="0.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="118.33" default-y="-5.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="144.82" default-y="-10.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="65.33" default-y="-95.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="144.82" default-y="-100.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        <speac>P1 A1 P2</speac>
+	   <chordid>II IV</chordid>
+	   </note>
+      <note default-x="17.50" default-y="-20.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="50.85" default-y="-30.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="100.25" default-y="-5.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="141.94" default-y="-20.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="17.50" default-y="-110.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="50.85" default-y="-100.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="79.41" default-y="-105.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="100.25" default-y="-110.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="121.10" default-y="-105.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="141.94" default-y="-100.00" beatnumber="69">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      </measure><measure number="9"><note default-x="394.33" default-y="-5.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="432.07" default-y="-15.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="469.81" default-y="-10.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="507.56" default-y="-5.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="394.33" default-y="-130.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="432.07" default-y="-100.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="469.81" default-y="-105.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="507.56" default-y="-110.00" beatnumber="75">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1 C2</speac>
+	   <chordid>IV VI</chordid>
+	   </note>
+      <note beatnumber="75" default-x="315.95" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note beatnumber="75" default-x="346.31" default-y="-20.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note beatnumber="75" default-x="376.68" default-y="-25.00">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note beatnumber="75" default-x="407.05" default-y="-20.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <note beatnumber="75" default-x="315.95" default-y="-35.00">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <tie type="stop"/>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note beatnumber="75" default-x="376.68" default-y="-40.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>72</duration></backup><note beatnumber="75" default-x="315.95" default-y="-115.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <dot/>
+        <stem>up</stem>
+        <staff>2</staff>
+        </note>
+      <note beatnumber="75" default-x="376.68" default-y="-145.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note beatnumber="75" default-x="456.94" default-y="-140.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
+	   <speac>C1 C3</speac>
+	   <chordid>I</chordid>
+	   </note>
+      <note default-x="195.41" default-y="-25.00" beatnumber="2">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="247.08" default-y="-35.00" beatnumber="2">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-10.00" beatnumber="85">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="39.30" default-y="-15.00" beatnumber="85">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="66.60" default-y="-5.00" beatnumber="85">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="93.90" default-y="-10.00" beatnumber="85">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>72</duration></backup><note default-x="12.00" default-y="-120.00" beatnumber="85">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>A1 A2 P2 S2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      </measure><measure number="10"><note default-x="160.17" default-y="-10.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="197.22" default-y="-5.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="234.26" default-y="-15.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="271.30" default-y="-10.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="160.17" default-y="-115.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="234.26" default-y="-105.00" beatnumber="30">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <tie type="start"/>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note default-x="176.47" default-y="-10.00" beatnumber="143">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="140.72" default-y="-140.00" beatnumber="143">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>C2 E1</speac>
+	   <chordid>VI</chordid>
+	   </note>
+      <note default-x="214.38" default-y="5.00" beatnumber="86">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="259.03" default-y="-15.00" beatnumber="86">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="286.93" default-y="-20.00" beatnumber="86">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="214.38" default-y="-90.00" beatnumber="86">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>C4</speac>
+	   <chordid>III</chordid>
+	   </note>
+      <note beatnumber="23" default-x="257.84" default-y="-5.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot/>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note beatnumber="23" default-x="349.67" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <note beatnumber="23" default-x="380.28" default-y="-15.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note beatnumber="23" default-x="380.28" default-y="-30.00">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note beatnumber="23" default-x="449.15" default-y="-40.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note beatnumber="23" default-x="257.84" default-y="-105.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">forward hook</beam>
+        </note>
+      <note beatnumber="23" default-x="288.45" default-y="-110.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note beatnumber="23" default-x="349.67" default-y="-115.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <note beatnumber="23" default-x="257.84" default-y="-145.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>III</chordid>
+	   </note>
+      <note beatnumber="23" default-x="319.06" default-y="-140.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   <speac>P2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      </measure><measure number="11"><note default-x="160.17" default-y="-25.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="197.22" default-y="-20.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="234.26" default-y="-30.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="271.30" default-y="-25.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="160.17" default-y="-115.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="234.26" default-y="-110.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1</speac>
+	   <chordid>I II III</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-25.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="50.85" default-y="-30.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="89.70" default-y="-25.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="128.56" default-y="-20.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">1</alter>
+		  <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-115.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="89.70" default-y="-120.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="128.56" default-y="-125.00" beatnumber="45">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1 C4</speac>
+	   <chordid>III</chordid>
+	   </note>
+      <note default-x="15.00" default-y="-15.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="43.56" default-y="-20.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="68.90" default-y="-15.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="94.24" default-y="10.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="15.00" default-y="-85.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="68.90" default-y="-115.00" beatnumber="43">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>C1 P1 C2 C3</speac>
+	   <chordid>I IV VI</chordid>
+	   </note>
+      <note beatnumber="91" default-x="12.00" default-y="-20.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note beatnumber="91" default-x="43.80" default-y="-15.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <backup><duration>72</duration></backup><note beatnumber="91" default-x="12.00" default-y="-135.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <speac>A1 A2 A3</speac>
+	   <chordid>V VII</chordid>
+	   <speac>C1 P1 C2 C3 E4 P3</speac>
+	   <chordid>I IV VI</chordid>
+	   </note>
+      </measure><measure number="12"><note default-x="362.68" default-y="0.00" dynamics="71.11" beatnumber="67">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+          </notations>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="401.23" default-y="-90.00" dynamics="71.11" beatnumber="67">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="439.77" default-y="-95.00" dynamics="71.11" beatnumber="67">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="478.31" default-y="-100.00" dynamics="71.11" beatnumber="67">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1 A2 A3</speac>
+	   <chordid>II IV</chordid>
+	   </note>
+      <note default-x="258.18" default-y="-10.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="290.32" default-y="-15.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="258.18" default-y="-120.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="290.32" default-y="-115.00" beatnumber="40">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1</speac>
+	   <chordid>II III IV V VII</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-5.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="44.17" default-y="-15.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="76.34" default-y="-10.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="108.50" default-y="-5.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-130.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="76.34" default-y="-95.00" beatnumber="25">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1 C4</speac>
+	   <chordid>III V VII</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-25.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="110.77" default-y="-15.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-140.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="44.92" default-y="-130.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="77.85" default-y="-125.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="110.77" default-y="-120.00" beatnumber="115">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      </measure><measure number="13"><note default-x="73.53" default-y="-30.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="100.83" default-y="-25.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="128.13" default-y="-20.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="155.43" default-y="-15.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="73.53" default-y="-125.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        </note>
+      <note default-x="128.13" default-y="-90.00" beatnumber="81">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>C2</speac>
+	   <chordid>VI</chordid>
+	   </note>
+      <note default-x="146.66" default-y="-10.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="180.32" default-y="0.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="213.98" default-y="-5.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="247.65" default-y="0.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="146.66" default-y="-140.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="180.32" default-y="-130.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="213.98" default-y="-135.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="247.65" default-y="-130.00" beatnumber="17">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C2</speac>
+	   <chordid>VI</chordid>
+	   </note>
+      <note default-x="184.26" default-y="-20.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="208.99" default-y="-15.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <note default-x="233.72" default-y="-10.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="258.45" default-y="-15.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="585.59" default-y="-10.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="610.32" default-y="0.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="635.05" default-y="10.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="659.78" default-y="0.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="184.26" default-y="-145.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        </note>
+      <note default-x="233.72" default-y="-155.00" beatnumber="6">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <speac>A1</speac>
+	   <chordid>III</chordid>
+	   </note>
+      <note beatnumber="34" default-x="43.04" default-y="-40.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <note beatnumber="34" default-x="74.08" default-y="-35.00">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <backup><duration>144</duration></backup><note beatnumber="34" default-x="74.08" default-y="-115.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>5</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        </note>
+      <note beatnumber="34" default-x="105.11" default-y="-135.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        </note>
+      <note beatnumber="34" default-x="136.15" default-y="-130.00">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <speac>A1 A2</speac>
+	   <chordid>II IV</chordid>
+	   <speac>C1 P1 C3</speac>
+	   <chordid>I IV</chordid>
+	   </note>
+      </measure><measure number="14"><note default-x="12.00" default-y="-40.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="89.56" default-y="-45.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-135.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="50.78" default-y="-130.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="89.56" default-y="-135.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="128.34" default-y="-140.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1 A1 P2 C2 S1 E4</speac>
+	   <chordid>II IV V VI VII</chordid>
+	   </note>
+      <note default-x="108.35" default-y="-10.00" beatnumber="58">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="132.44" default-y="0.00" beatnumber="58">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="156.53" default-y="-20.00" beatnumber="58">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="180.61" default-y="-10.00" beatnumber="58">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="108.35" default-y="-115.00" beatnumber="58">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="156.53" default-y="-105.00" beatnumber="58">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note default-x="160.17" default-y="-25.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="197.22" default-y="-20.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="234.26" default-y="-30.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="271.30" default-y="-25.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="160.17" default-y="-115.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="234.26" default-y="-110.00" beatnumber="102">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1</speac>
+	   <chordid>I II III</chordid>
+	   </note>
+      <note default-x="235.67" default-y="-15.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="273.70" default-y="-10.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="311.73" default-y="-20.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="349.77" default-y="-15.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="235.67" default-y="-140.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="311.73" default-y="-135.00" beatnumber="82">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P1 A1 P2</speac>
+	   <chordid>II IV</chordid>
+	   </note>
+      </measure><measure number="15"><note default-x="601.84" default-y="5.00" beatnumber="36">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="526.36" default-y="-110.00" beatnumber="36">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="564.10" default-y="-105.00" beatnumber="36">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="601.84" default-y="-95.00" beatnumber="36">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="639.57" default-y="-110.00" beatnumber="36">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P2 S1</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note default-x="204.84" default-y="-15.00" beatnumber="49">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="236.98" default-y="-20.00" beatnumber="49">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="204.84" default-y="-125.00" beatnumber="49">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="236.98" default-y="-120.00" beatnumber="49">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>C1 P1 A1 C4 P2 C2 E1 C3 E2</speac>
+	   <chordid>I II III IV VI</chordid>
+	   </note>
+      <note default-x="275.95" default-y="-15.00" beatnumber="149">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="275.95" default-y="-140.00" beatnumber="149">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1 A2 P2 A3 S2</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note beatnumber="30" default-x="97.14" default-y="-10.00">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <speac>A1 A2 P2 S1 A3 S2</speac>
+	   <chordid>II V VII</chordid>
+	   <speac>C1 C4 C2 S3 E1 C3 E2</speac>
+	   <chordid>I III VI</chordid>
+	   </note>
+      </measure><measure number="16"><note default-x="222.49" default-y="-15.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="246.46" default-y="-5.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="270.44" default-y="0.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="300.80" default-y="-25.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="222.49" default-y="-105.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="246.46" default-y="-95.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="270.44" default-y="-80.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="300.80" default-y="-85.00" beatnumber="51">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
+	   </note>
+      <note default-x="378.80" default-y="5.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="416.73" default-y="10.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="454.66" default-y="5.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="492.60" default-y="-5.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="378.80" default-y="-120.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="454.66" default-y="-155.00" beatnumber="31">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1</speac>
+	   <chordid>II</chordid>
+	   </note>
+      <note default-x="138.60" default-y="15.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="201.89" default-y="5.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="233.54" default-y="-5.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">1</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="138.60" default-y="-110.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="170.24" default-y="-105.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="201.89" default-y="-100.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="233.54" default-y="-110.00" dynamics="71.11" beatnumber="8">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="140.83" default-y="-10.00" beatnumber="140">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="140.83" default-y="-115.00" beatnumber="140">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="173.04" default-y="-125.00" beatnumber="140">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 C2 C3</speac>
+	   <chordid>I VI</chordid>
+	   </note>
+      </measure><measure number="17"><note beatnumber="62" default-x="70.09" default-y="-25.00">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>72</duration></backup><note beatnumber="62" default-x="70.09" default-y="-110.00">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>A1 C4</speac>
+	   <chordid>III V VII</chordid>
+	   <speac>P1 P2 C2 S1 E1 E4</speac>
+	   <chordid>II IV VI</chordid>
+	   </note>
+      <note default-x="245.61" default-y="-30.00" beatnumber="113">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="297.52" default-y="-25.00" beatnumber="113">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="329.96" default-y="-30.00" beatnumber="113">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="245.61" default-y="-100.00" beatnumber="113">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>C1 C4 C3 E2</speac>
+	   <chordid>I III</chordid>
+	   </note>
+      <note default-x="147.94" default-y="-10.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="181.92" default-y="0.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="215.91" default-y="-5.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="249.89" default-y="0.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="147.94" default-y="-115.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="215.91" default-y="-125.00" beatnumber="77">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>P1 C2 E4</speac>
+	   <chordid>IV VI</chordid>
+	   </note>
+      <note default-x="176.47" default-y="-10.00" beatnumber="143">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="140.72" default-y="-140.00" beatnumber="143">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>C2 E1</speac>
+	   <chordid>VI</chordid>
+	   </note>
+      </measure><measure number="18"><note beatnumber="55" default-x="278.18" default-y="-5.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note beatnumber="55" default-x="314.36" default-y="10.00">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note beatnumber="55" default-x="336.97" default-y="15.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note beatnumber="55" default-x="365.53" default-y="20.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>6</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note beatnumber="55" default-x="401.71" default-y="-5.00">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <note beatnumber="55" default-x="278.18" default-y="-15.00">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note beatnumber="55" default-x="365.53" default-y="-20.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note beatnumber="55" default-x="401.71" default-y="-25.00">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>72</duration></backup><note beatnumber="55" default-x="278.18" default-y="-130.00">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>5</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        </note>
+      <note beatnumber="55" default-x="278.18" default-y="-155.00">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note beatnumber="55" default-x="365.53" default-y="-165.00">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 C2</speac>
+	   <speac>P1 A1 P2</speac>
+	   <speac>P1 A1 P2</speac>
+	   <speac>P1 A1 P2</speac>
+	   <speac>A1</speac>
+	   <chordid>II IV</chordid>
+	   <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="73.53" default-y="-30.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="107.12" default-y="-20.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="128.12" default-y="-15.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="149.11" default-y="-10.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="170.10" default-y="-15.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">D</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="191.10" default-y="-20.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="73.53" default-y="-120.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="107.12" default-y="-110.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="128.12" default-y="-105.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="149.11" default-y="-100.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="170.10" default-y="-105.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="191.10" default-y="-110.00" beatnumber="57">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note default-x="147.94" default-y="-20.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="181.92" default-y="-10.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="215.91" default-y="-15.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="249.89" default-y="-10.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="147.94" default-y="-90.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="181.92" default-y="-80.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="215.91" default-y="-85.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+          <octave updated="yes">3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="249.89" default-y="-80.00" beatnumber="80">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note default-x="164.12" default-y="-20.00" beatnumber="98">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">1</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="200.95" default-y="-25.00" beatnumber="98">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 P1 A1 A2 C4 P2 C2 S3 E1 C3 E2 A3 P4 S2</speac>
+	   <chordid>I II III IV VI</chordid>
+	   </note>
+      </measure><measure number="19"><note default-x="618.80" default-y="-45.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="665.84" default-y="-15.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="712.88" default-y="-35.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="759.92" default-y="-20.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="618.80" default-y="-110.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="712.88" default-y="-145.00" dynamics="71.11" beatnumber="84">
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>A1</speac>
+	   <chordid>V VII</chordid>
+	   </note>
+      <note default-x="135.95" default-y="0.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="166.94" default-y="5.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="197.93" default-y="10.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="228.92" default-y="5.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">B</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="135.95" default-y="-105.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="197.93" default-y="-115.00" dynamics="71.11" beatnumber="14">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P1 C2 E4</speac>
+	   <chordid>IV VI</chordid>
+	   </note>
+      <note default-x="143.98" default-y="-5.00" beatnumber="147">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="176.97" default-y="-15.00" beatnumber="147">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>5</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="143.98" default-y="-125.00" beatnumber="147">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="176.97" default-y="-120.00" beatnumber="147">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <speac>P1 P2</speac>
+	   <chordid>II IV</chordid>
+	   </note>
+      <note beatnumber="25" default-x="73.53" default-y="15.00">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">6</octave>
+          </pitch>
+        <duration updated="yes">72</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+      <backup><duration>144</duration></backup><note beatnumber="25" default-x="73.53" default-y="-110.00">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">144</duration>
+        <voice>5</voice>
+        <type>half</type>
+        <dot/>
+        <stem>down</stem>
+        <staff>2</staff>
+        <speac>A1 C4</speac>
+	   <chordid>III V VII</chordid>
+	   <speac>P1 C2 E4</speac>
+	   <chordid>IV VI</chordid>
+	   </note>
+      </measure><measure number="20"><note default-x="200.35" default-y="-30.00" beatnumber="146">
+        <pitch>
+          <step updated="yes">E</step>
+          <alter updated="yes">0</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="223.29" default-y="-25.00" beatnumber="146">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="163.64" default-y="-130.00" beatnumber="146">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="200.35" default-y="-135.00" beatnumber="146">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>C1 P1 A1 C4 P2 C2 E1 C3 E2</speac>
+	   <chordid>I II III IV VI</chordid>
+	   </note>
+      <note default-x="67.53" default-y="-35.00" beatnumber="49">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="91.98" default-y="5.00" beatnumber="49">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="122.34" default-y="0.00" beatnumber="49">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="146.79" default-y="-5.00" beatnumber="49">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="67.53" default-y="-95.00" beatnumber="49">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <notations>
+          <tied type="stop"/>
+          </notations>
+        </note>
+      <note default-x="91.98" default-y="-100.00" beatnumber="49">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="122.34" default-y="-95.00" beatnumber="49">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="146.79" default-y="-105.00" beatnumber="49">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      <note default-x="12.00" default-y="-25.00" beatnumber="130">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note default-x="79.36" default-y="-20.00" beatnumber="130">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>4</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="12.00" default-y="-125.00" beatnumber="130">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">1</alter>
+		  <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <tie type="stop"/>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">forward hook</beam>
+        </note>
+      <note default-x="45.68" default-y="-130.00" beatnumber="130">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        </note>
+      <note default-x="113.04" default-y="-135.00" beatnumber="130">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>2</octave>
+          </pitch>
+        <duration updated="yes">36</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <speac>A1</speac>
+	   <chordid>II IV</chordid>
+	   </note>
+      <note default-x="368.16" default-y="-20.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="400.89" default-y="-5.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="441.81" default-y="-20.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">C</step>
+          <alter updated="yes">0</alter>
+          <octave updated="yes">5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note default-x="482.73" default-y="-5.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>5</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        </note>
+      <backup><duration>48</duration></backup><note default-x="368.16" default-y="-110.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="400.89" default-y="-120.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note default-x="421.35" default-y="-115.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="441.81" default-y="-110.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">A</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note default-x="462.27" default-y="-115.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">G</step>
+          <alter updated="yes">0</alter>
+		  <octave>3</octave>
+          </pitch>
+        <duration updated="yes">9</duration>
+        <voice>5</voice>
+        <type>32nd</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note default-x="482.73" default-y="-120.00" beatnumber="67">
+        <pitch>
+          <step updated="yes">F</step>
+          <alter updated="yes">0</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration updated="yes">18</duration>
+        <voice>5</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <speac>P1</speac>
+	   <chordid>IV</chordid>
+	   </note>
+      </measure></part>
+</score-partwise>

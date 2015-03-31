@@ -7,8 +7,7 @@
 # Distributed under terms of the MIT license.
 
 """
-    Uses a markov chain to get a SPEAC outline
-    to aid recombination.
+    Composes a piece using Markov-Chains
 """
 
 import random
@@ -33,9 +32,9 @@ class Outline:
 
     def getOutlines(self):
         """ get list of SPEAC outlines in a directory """
-        dirnames = os.listdir(self.dirname)
+        filenames = os.listdir(self.dirname)
         outlinelist = []
-        for f in dirnames:
+        for f in filenames:
             outlinelist.append(self.getAnOutline(self.dirname+"/"+f))
         outlinelist = [x for x in outlinelist if x != []] # remove any empty ones
         return outlinelist
@@ -186,9 +185,7 @@ def addToPiece(fourbeats,mxl):
     measure.set("number",str(globalmeasure))
     for beat in fourbeats:
         for note in beat:
-            print("Note: ",note)
             measure.append(note)
-    print()
     part.append(measure)
 
 def jigsaw(beats,outline):
@@ -197,14 +194,11 @@ def jigsaw(beats,outline):
     mxlskeleton = ET.parse("mxl-skeleton.xml")
     measure = []
     for ID in outline:
-        #print(ID[0],bdict[ID[0]])
         beat = random.choice(bdict[ID[0]])
         if len(beat): # XXX why is this happening
             measure.append(beat)
-        #print(ET.tostring(beat), len(beat))
 
         if len(measure)>=4 :
-           print("adding")
            addToPiece(measure,mxlskeleton)
            measure = []
     return mxlskeleton
