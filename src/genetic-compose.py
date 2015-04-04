@@ -19,14 +19,16 @@ import lxml.etree as ET
 class genetic:
 
     def __init__(self,dirname,crossoverRate,mutateRate):
-        self.chromosomes = [self.Chromosome(chromo) \
+        self.chromosomes = [self.Chromosome(chromo,9999) \
                 for chromolist in self.getChromo(dirname) \
                 for chromo in chromolist] # get array of chromosome objects
+        self.chromosomes = [chromo for chromo in self.chromosomes \
+                if len(chromo.beat) > 1] # remove empty beats
         self.crRate = crossoverRate
         self.muRate = mutateRate
 
     class Chromosome():
-        def __init__(self, beat=None, fitness=999.0):
+        def __init__(self, beat, fitness):
             self.beat = beat
             self.fitness = fitness
 
@@ -71,8 +73,7 @@ class genetic:
 
     def countNotes(self, beat):
         """ counts notes in a beat """
-        notes = beat.findall("./note")
-        return len(notes)
+        return len(beat.findall("./note"))
 
     def checkFitness(self, currbeatdetails, beat):
         """ Fitness function
@@ -92,20 +93,20 @@ class genetic:
         fittotal = fitp + fitl + fitc
         return fittotal
 
-    def Roulette(self, totalFitness, Population):
+    def Roulette(self, totalFitness):
 
         Slice = random.random() * totalFitness
         fitnessSoFar = 0
 
-        for chromo in Population:
+        for chromo in self.chromosomes:
             fitnessSoFar += chromo.fitness
 
-            if(fitnessSoFar >= Slice):
+            if fitnessSoFar >= Slice:
                 return chromo.beat
         return None
 
     def mutate(self, beat):
-        """ mutate a beat by + or - one note """
+        """ mutate a beat by + or - two notes """
         if random.random() < self.muRate:
             notes = beat.findall("./note")
             if notes == []:
@@ -117,24 +118,27 @@ class genetic:
 
             step = munote.find("pitch/step")
             if choice == "plus":
-                if step.text == "G":
+                if step.text == "F":
                     step.text = "A"
+                elif step.text == "G":
+                    step.text = "B"
                 else:
-                    step.text = chr(ord(step.text)+1) 
+                    step.text = chr(ord(step.text)+2) 
             else:
                 if step.text == "A":
+                    step.text = "F"
+                elif step.text == "B":
                     step.text = "G"
                 else:
-                    step.text = chr(ord(step.text)-1) 
+                    step.text = chr(ord(step.text)-2) 
         return beat
 
 
     def crossover(self, mammybeat, daddybeat):
         """ crossover two parent beats by swapping bass and treble clef notes 
             and also chopping those notes"""
-
-        if random.random() < self.crRate:
-
+        if random.random() < self.crRate and \
+                len(mammybeat) > 1 and len(daddybeat) > 1 :
             mammy = mammybeat.findall("./")
             mammynotes = [[],[]] # [[treble notes + backup],[bass notes]]
             bass = 0
@@ -142,7 +146,6 @@ class genetic:
                 mammynotes[bass].append(elem)
                 if elem.tag == "backup":
                     bass = 1
-
             daddy = daddybeat.findall("./")
             daddynotes = [[],[]]
             bass = 0
@@ -169,7 +172,7 @@ class genetic:
                         + daddynotes[0][slicer:len(daddynotes)-1]
 
             # slice bass notes
-            if len(daddynotes[1]) > len(mammynotes[1]):
+            if len(daddynotes[1]) >= len(mammynotes[1]):
                 slicer = random.randint(0,len(mammynotes[1]))
                 bass1 = mammynotes[1][0:slicer] \
                         + daddynotes[1][slicer:len(daddynotes)-1]
@@ -182,7 +185,6 @@ class genetic:
                 bass2 = mammynotes[1][0:slicer] \
                         + daddynotes[1][slicer:len(daddynotes)-1]
 
-
             for t in treble1:
                 child1.append(t)
             for b in bass1:
@@ -193,10 +195,12 @@ class genetic:
             for b in bass2:
                 child2.append(b)
 
-            return (child1, child2)
+            if len(child1) == 0 or len(child2) == 0:
+                return (mammybeat,daddybeat)
+            else:
+                return (child1, child2)
 
-        else: 
-            return (mammybeat, daddybeat)
+        return (mammybeat, daddybeat)
 
     def checkChord (self, beat1, beat2):
         """ checks that both beats are of the same chord """
@@ -220,7 +224,6 @@ class genetic:
 
         while fitness > minfit:
             print("\033[92mGeneration {0}, closest match: {1}\033[0m".format(generations,fitness))
-            print("number of chromosomes: ",len(self.chromosomes))
             totalFitness = 0
             for chromosome in self.chromosomes:
                 chromosome.fitness = self.checkFitness(beatdetails, chromosome.beat)
@@ -231,83 +234,35 @@ class genetic:
                     print("Match found! Fitness: ",chromosome.fitness)
                     return chromosome.beat
 
-            self.chromosomes.sort(key=lambda x:x.fitness) 
-            fitness = self.chromosomes[0].fitness
-            bestmatch = ET.tostring(self.chromosomes[0].beat)
-            #print("Best so far:\n",bestmatch.decode())
+            fitness = sorted(self.chromosomes, key=lambda x:x.fitness)[0].fitness
+            #best = sorted(self.chromosomes, key=lambda x:x.fitness)[0].beat
+            #bstring = ET.tostring(best)
+            #print("Best so far ",bstring.decode())
+            #input()
 
             newGen = []
             # XXX: Elitism required
+            while len(newGen) < len(self.chromosomes):
+                offspring1 = self.Roulette(totalFitness)
+                offspring2 = self.Roulette(totalFitness)
 
-
-            Ravg = []
-            Cavg = []
-            Mavg = []
-            Wavg = []
-            for i in range(int(len(self.chromosomes)/2)):
-                startTime = time.time()
-                offspring1 = self.Roulette(totalFitness, self.chromosomes)
-                elapsedTime = time.time() - startTime
-                Ravg.append(elapsedTime)
-
-                startTime = time.time()
-                offspring2 = self.Roulette(totalFitness, self.chromosomes)
-                elapsedTime = time.time() - startTime
-                Ravg.append(elapsedTime)
-                print("Generating child number ",i*2,end="\r")
-                wstartTime = time.time()
-                while not self.checkChord (offspring1, offspring2):
-                    # ensure parents are the same chord
-                    startTime = time.time()
-                    offspring1 = self.Roulette(totalFitness, self.chromosomes)
-                    elapsedTime = time.time() - startTime
-                    Ravg.append(elapsedTime)
-
-                    startTime = time.time()
-                    offspring2 = self.Roulette(totalFitness, self.chromosomes)
-                    elapsedTime = time.time() - startTime
-                    Ravg.append(elapsedTime)
-                elapsedTime = time.time() - wstartTime
-                Wavg.append(elapsedTime)
-
-                startTime = time.time()
                 offspring1, offspring2 = self.crossover(offspring1,offspring2)
-                elapsedTime = time.time() - startTime
-                Cavg.append(elapsedTime)
 
-                startTime = time.time()
                 offspring1 = self.mutate(offspring1)
-                elapsedTime = time.time() - startTime
-                Mavg.append(elapsedTime)
-                startTime = time.time()
                 offspring2 = self.mutate(offspring2)
-                elapsedTime = time.time() - startTime
-                Mavg.append(elapsedTime)
 
-                newGen.append(self.Chromosome(offspring1))
-                newGen.append(self.Chromosome(offspring2))
+                if len(offspring1) > 1 :
+                    # avoid mysterious empty beats
+                    newGen.append(self.Chromosome(offspring1,9999))
 
-            r = 0
-            for x in Ravg:
-                r += x
-            print("\033[93mRoulette average time: ",(r/len(Ravg)),"\033[0m")
-            r = 0
-            for x in Cavg:
-                r += x
-            print("\033[93mCrossover average time: ",(r/len(Cavg)),"\033[0m")
-            for x in Mavg:
-                r += x
-            print("\033[93mMutate average time: ",(r/len(Mavg)),"\033[0m\n")
-            for x in Wavg:
-                r += x
-            print("\033[93mWhile loop average time: ",(r/len(Wavg)),"\033[0m\n")
-            self.chromomes = None
+                if len(offspring2) > 1 :
+                    newGen.append(self.Chromosome(offspring2,9999))
+
             self.chromosomes = copy.deepcopy(newGen)
-            del newGen
 
             generations += 1
-            if generations > 30:
-                print("no matching beat found")
+            if generations > 10:
+                print("Couldn't find fitness under specified, returning closest")
                 break
 
         return self.chromosomes[0].beat
@@ -320,7 +275,7 @@ class genetic:
 #################################################
 
 pwd = os.path.dirname(os.path.realpath(__file__))
-gen = genetic((pwd + "/../data/SPEAC"),0.7,0.0)
+gen = genetic((pwd + "/../data/SPEAC"),0.7,0.02)
 # beat1 = A0 B0     beat2 = E3 G3
 beat1 = ET.fromstring('<beat><note color="#000000" default-x="150" default-y="-17" beatnumber="7"><pitch><step updated="yes">A</step><alter updated="yes">0</alter><octave>0</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note><note color="#000000" default-x="185" default-y="-17" beatnumber="7"><pitch><step updated="yes">B</step><alter updated="yes">0</alter><octave updated="yes">0</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/> <voice>1</voice> <type>eighth</type> <stem>up</stem> <staff>1</staff> <beam number="1">continue</beam> <speac>C1 C4 C3 E2</speac> <chordid>I III</chordid> </note> </beat>')
 beat2 = ET.fromstring('<beat><note color="#000000" default-x="150" default-y="-17" beatnumber="7"><pitch><step updated="yes">E</step><alter updated="yes">0</alter><octave>3</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note><note color="#000000" default-x="185" default-y="-17" beatnumber="7"><pitch><step updated="yes">G</step><alter updated="yes">0</alter><octave updated="yes">3</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/> <voice>1</voice> <type>eighth</type> <stem>up</stem> <staff>1</staff> <beam number="1">continue</beam> <speac>C1 C4 C3 E2</speac> <chordid>I III</chordid> </note> </beat>')
