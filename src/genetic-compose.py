@@ -11,6 +11,7 @@
 """
 
 import os
+import time
 import copy
 import random
 import lxml.etree as ET
@@ -233,26 +234,74 @@ class genetic:
             self.chromosomes.sort(key=lambda x:x.fitness) 
             fitness = self.chromosomes[0].fitness
             bestmatch = ET.tostring(self.chromosomes[0].beat)
-            print("Best so far:\n",bestmatch.decode())
+            #print("Best so far:\n",bestmatch.decode())
 
             newGen = []
-            # Elitism required
+            # XXX: Elitism required
+
+
+            Ravg = []
+            Cavg = []
+            Mavg = []
+            Wavg = []
             for i in range(int(len(self.chromosomes)/2)):
+                startTime = time.time()
                 offspring1 = self.Roulette(totalFitness, self.chromosomes)
+                elapsedTime = time.time() - startTime
+                Ravg.append(elapsedTime)
+
+                startTime = time.time()
                 offspring2 = self.Roulette(totalFitness, self.chromosomes)
+                elapsedTime = time.time() - startTime
+                Ravg.append(elapsedTime)
                 print("Generating child number ",i*2,end="\r")
+                wstartTime = time.time()
                 while not self.checkChord (offspring1, offspring2):
                     # ensure parents are the same chord
+                    startTime = time.time()
                     offspring1 = self.Roulette(totalFitness, self.chromosomes)
-                    offspring2 = self.Roulette(totalFitness, self.chromosomes)
+                    elapsedTime = time.time() - startTime
+                    Ravg.append(elapsedTime)
 
+                    startTime = time.time()
+                    offspring2 = self.Roulette(totalFitness, self.chromosomes)
+                    elapsedTime = time.time() - startTime
+                    Ravg.append(elapsedTime)
+                elapsedTime = time.time() - wstartTime
+                Wavg.append(elapsedTime)
+
+                startTime = time.time()
                 offspring1, offspring2 = self.crossover(offspring1,offspring2)
+                elapsedTime = time.time() - startTime
+                Cavg.append(elapsedTime)
+
+                startTime = time.time()
                 offspring1 = self.mutate(offspring1)
+                elapsedTime = time.time() - startTime
+                Mavg.append(elapsedTime)
+                startTime = time.time()
                 offspring2 = self.mutate(offspring2)
+                elapsedTime = time.time() - startTime
+                Mavg.append(elapsedTime)
 
                 newGen.append(self.Chromosome(offspring1))
                 newGen.append(self.Chromosome(offspring2))
 
+            r = 0
+            for x in Ravg:
+                r += x
+            print("\033[93mRoulette average time: ",(r/len(Ravg)),"\033[0m")
+            r = 0
+            for x in Cavg:
+                r += x
+            print("\033[93mCrossover average time: ",(r/len(Cavg)),"\033[0m")
+            for x in Mavg:
+                r += x
+            print("\033[93mMutate average time: ",(r/len(Mavg)),"\033[0m\n")
+            for x in Wavg:
+                r += x
+            print("\033[93mWhile loop average time: ",(r/len(Wavg)),"\033[0m\n")
+            self.chromomes = None
             self.chromosomes = copy.deepcopy(newGen)
             del newGen
 
