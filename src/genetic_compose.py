@@ -15,6 +15,7 @@ import time
 import copy
 import random
 import lxml.etree as ET
+import markov_compose as MC
 
 class genetic:
 
@@ -26,11 +27,32 @@ class genetic:
                 if len(chromo.beat) > 1] # remove empty beats
         self.crRate = crossoverRate
         self.muRate = mutateRate
+        self.stack = self.Stack(5)
 
     class Chromosome():
         def __init__(self, beat, fitness):
             self.beat = beat
             self.fitness = fitness
+
+    class Stack():
+        """ FILO stack of fixed size """
+        def __init__(self, size):
+            self.size = size
+            self.__stack = []
+
+        def push(self, element):
+            if len(self.__stack) >= self.size:
+                self.__stack.pop()
+            self.__stack.insert(0,element)
+
+        def pop(self):
+            return self.__stack.pop()
+
+        def contains(self,element):
+            if element in self.__stack:
+                return True
+            else:
+                return False
 
     def getChromo(self, dirname):
         """ get each beat as chromosome """
@@ -229,16 +251,13 @@ class genetic:
                 chromosome.fitness = self.checkFitness(beatdetails, chromosome.beat)
                 totalFitness += chromosome.fitness
 
-                if chromosome.fitness < minfit:
+                if chromosome.fitness < minfit and not self.stack.contains(chromosome):
                     # doesn't have to be best match just good enough
                     print("Match found! Fitness: ",chromosome.fitness)
+                    self.stack.push(chromosome)
                     return chromosome.beat
 
             fitness = sorted(self.chromosomes, key=lambda x:x.fitness)[0].fitness
-            #best = sorted(self.chromosomes, key=lambda x:x.fitness)[0].beat
-            #bstring = ET.tostring(best)
-            #print("Best so far ",bstring.decode())
-            #input()
 
             newGen = []
             # XXX: Elitism required
@@ -268,18 +287,43 @@ class genetic:
         return self.chromosomes[0].beat
 
 
-#################################################
-#################################################
-###########   Testing the Class   ###############
-#################################################
-#################################################
+def getFirstBeats(beatlist):
+    firstbeatlist = []
+    for b_list in beatlist:
+        for b in b_list[1]:
+            firstbeat = []
+            if not type(b) is str:
+                notelist = b.xpath("//note[@beatnumber='1']")
+                for note in notelist:
+                    beat = note.getparent()
+                    if not beat in firstbeatlist:
+                        firstbeatlist.append(beat)
+    return firstbeatlist
 
-pwd = os.path.dirname(os.path.realpath(__file__))
-gen = genetic((pwd + "/../data/SPEAC"),0.7,0.02)
-# beat1 = A0 B0     beat2 = E3 G3
-beat1 = ET.fromstring('<beat><note color="#000000" default-x="150" default-y="-17" beatnumber="7"><pitch><step updated="yes">A</step><alter updated="yes">0</alter><octave>0</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note><note color="#000000" default-x="185" default-y="-17" beatnumber="7"><pitch><step updated="yes">B</step><alter updated="yes">0</alter><octave updated="yes">0</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/> <voice>1</voice> <type>eighth</type> <stem>up</stem> <staff>1</staff> <beam number="1">continue</beam> <speac>C1 C4 C3 E2</speac> <chordid>I III</chordid> </note> </beat>')
-beat2 = ET.fromstring('<beat><note color="#000000" default-x="150" default-y="-17" beatnumber="7"><pitch><step updated="yes">E</step><alter updated="yes">0</alter><octave>3</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note><note color="#000000" default-x="185" default-y="-17" beatnumber="7"><pitch><step updated="yes">G</step><alter updated="yes">0</alter><octave updated="yes">3</octave></pitch><duration updated="yes">36</duration><instrument id="P1-I1"/> <voice>1</voice> <type>eighth</type> <stem>up</stem> <staff>1</staff> <beam number="1">continue</beam> <speac>C1 C4 C3 E2</speac> <chordid>I III</chordid> </note> </beat>')
-#child = gen.checkFitness((40,36,2),beat1)
+def generate():
+    pwd = os.path.dirname(os.path.realpath(__file__))
+    speacdir = pwd + "/../data/SPEAC"
+    print("Getting a seed beat...")
+    beats = MC.speacBeats(speacdir)
+    firstbeats = getFirstBeats(beats)
+    del beats # not used anymore
+    seed = random.choice(firstbeats)
+    print("Seed beat found")
+    gen = genetic((pwd + "/../data/SPEAC"),0.7,0.02)
+    measure = []
+    mxlskeleton = ET.parse("mxl-skeleton.xml")
+    for i in range(120):
+        print("\033[93m\nGenerating beat number:",i,"\033[0m")
+        newBeat = gen.getBeat(seed,0.9)
+        measure.append(newBeat)
+        seed = copy.deepcopy(newBeat)
+        if len(measure)>=4:
+           MC.addToPiece(measure,mxlskeleton)
+           measure = []
 
-child = gen.getBeat(beat1,0.5)
-print(ET.tostring(child).decode())
+    if os.path.isfile("composition.xml"):
+        os.remove("composition.xml")
+    mxlskeleton.write("composition.xml")
+
+
+generate()
