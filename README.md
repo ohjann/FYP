@@ -3,6 +3,7 @@ Algorithmic music composition program based off David Cope's EMI. Done as part o
 
 Sample output can be seen [here](http://ohjann.netsoc.ie/music/FYP).
 
+
 ##Usage
 
 #### Clarifying database
@@ -38,3 +39,7 @@ Composition is then stored in `src/Composition.xml`
 
 ### Dependencies
 - [lxml](http://lxml.de/)
+
+
+####Note 
+Code quality is poor as structure was very much done on a figure-out-as-I-go-along basis and certain features had to be crowbarred in close to project deadline with no time for adequate refactoring.

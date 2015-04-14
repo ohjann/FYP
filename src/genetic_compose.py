@@ -15,19 +15,17 @@ import time
 import copy
 import random
 import lxml.etree as ET
-import markov_compose as MC
+from markov_compose import speacBeats
+from math import sqrt
 
 class genetic:
 
     def __init__(self,dirname,crossoverRate,mutateRate):
-        self.chromosomes = [self.Chromosome(chromo,9999) \
-                for chromolist in self.getChromo(dirname) \
-                for chromo in chromolist] # get array of chromosome objects
-        self.chromosomes = [chromo for chromo in self.chromosomes \
-                if len(chromo.beat) > 1] # remove empty beats
+        self.dirname = dirname
+        self.chromosomes = None
         self.crRate = crossoverRate
         self.muRate = mutateRate
-        self.stack = self.Stack(5)
+        self.stack = self.Stack(24)
 
     class Chromosome():
         def __init__(self, beat, fitness):
@@ -48,11 +46,28 @@ class genetic:
         def pop(self):
             return self.__stack.pop()
 
+        def elements_equal(self,e1,e2):
+            if e1.tag != e1.tag: return False
+            if e1.text != e2.text: return False
+            if e1.tail != e2.tail: return False
+            if e1.attrib != e2.attrib: return False
+            if len(e1) != len(e2): return False
+            return all(self.elements_equal(c1, c2) for c1, c2 in zip(e1, e2)) 
+
         def contains(self,element):
-            if element in self.__stack:
-                return True
-            else:
-                return False
+            for e in self.__stack:
+                if self.elements_equal(e,element):
+                    return True
+            return False
+
+    def initChromo(self):
+        """ initialise chromosome attribute """
+        temp = [self.Chromosome(chromo,9999) \
+                for chromolist in self.getChromo(self.dirname) \
+                for chromo in chromolist] # get array of chromosome objects
+        temp = [chromo for chromo in temp \
+                if len(chromo.beat) > 1] # remove empty beats
+        return temp
 
     def getChromo(self, dirname):
         """ get each beat as chromosome """
@@ -98,7 +113,7 @@ class genetic:
         return len(beat.findall("./note"))
 
     def checkFitness(self, currbeatdetails, beat):
-        """ Fitness function
+        """ Fitness function getting euclidean distance between vectors
         :param currbeatdetails: tuple with (pitch median, average length, number of notes) of current beat
         :type currbeatdetails: (int, int, int)
         """
@@ -108,12 +123,12 @@ class genetic:
 
         cpitch, clength, cnotecount = currbeatdetails
 
-        fitp = abs((cpitch/pitch) - 1)
-        fitl = abs((clength/length) - 1)
-        fitc = abs((notecount/cnotecount) - 1)
+        fitp = abs(cpitch-pitch)**2
+        fitl = abs(clength-length)**2
+        fitc = abs(notecount-cnotecount)**2
 
-        fittotal = fitp + fitl + fitc
-        return fittotal
+        distance = sqrt(fitp+fitl+fitc)
+        return distance
 
     def Roulette(self, totalFitness):
 
@@ -129,7 +144,7 @@ class genetic:
 
     def mutate(self, beat):
         """ mutate a beat by + or - two notes """
-        if random.random() < self.muRate:
+        if random.random() < self.muRate and len(beat) > 0:
             notes = beat.findall("./note")
             if notes == []:
                 return beat
@@ -159,63 +174,70 @@ class genetic:
     def crossover(self, mammybeat, daddybeat):
         """ crossover two parent beats by swapping bass and treble clef notes 
             and also chopping those notes"""
-        if random.random() < self.crRate and \
-                len(mammybeat) > 1 and len(daddybeat) > 1 :
+        if (random.random() < self.crRate 
+                and len(mammybeat) > 1 
+                and len(daddybeat) > 1) :
+
             mammy = mammybeat.findall("./")
             mammynotes = [[],[]] # [[treble notes + backup],[bass notes]]
-            bass = 0
+            index = 0
             for elem in mammy:
-                mammynotes[bass].append(elem)
                 if elem.tag == "backup":
-                    bass = 1
+                    index = 1
+                else: 
+                    mammynotes[index].append(elem)
+
             daddy = daddybeat.findall("./")
             daddynotes = [[],[]]
-            bass = 0
+            index = 0
             for elem in daddy:
-                daddynotes[bass].append(elem)
                 if elem.tag == "backup":
-                    bass = 1
+                    index = 1
+                else:
+                    daddynotes[index].append(elem)
 
             child1 = ET.Element("beat")
             child2 = ET.Element("beat")
 
-            # slice treble notes
-            if len(daddynotes[0]) > len(mammynotes[0]):
-                slicer = random.randint(0,len(mammynotes[0]))
-                treble1 = mammynotes[0][0:slicer] \
-                        + daddynotes[0][slicer:len(daddynotes)-1]
-                treble2 = daddynotes[0][0:slicer] \
-                        + mammynotes[0][slicer:len(mammynotes)-1]
+            if len(daddynotes[0]) > 0 and len(mammynotes[0]) > 0:
+                # slice treble notes
+                if len(daddynotes[0]) > len(mammynotes[0]):
+                    slicer = random.randint(0,len(mammynotes[0]))
+                    treble1 = mammynotes[0][0:slicer] \
+                            + daddynotes[0][slicer:len(daddynotes)-1]
+                    treble2 = daddynotes[0][0:slicer] \
+                            + mammynotes[0][slicer:len(mammynotes)-1]
+                else:
+                    slicer = random.randint(0,len(daddynotes[0]))
+                    treble1 = daddynotes[0][0:slicer] \
+                            + mammynotes[0][slicer:len(mammynotes)-1]
+                    treble2 = mammynotes[0][0:slicer] \
+                            + daddynotes[0][slicer:len(daddynotes)-1]
+
+                [child1.append(t) for t in treble1]
+                [child2.append(t) for t in treble2]
             else:
-                slicer = random.randint(0,len(daddynotes[0]))
-                treble1 = daddynotes[0][0:slicer] \
-                        + mammynotes[0][slicer:len(mammynotes)-1]
-                treble2 = mammynotes[0][0:slicer] \
-                        + daddynotes[0][slicer:len(daddynotes)-1]
+                return (mammybeat,daddybeat)
 
-            # slice bass notes
-            if len(daddynotes[1]) >= len(mammynotes[1]):
-                slicer = random.randint(0,len(mammynotes[1]))
-                bass1 = mammynotes[1][0:slicer] \
-                        + daddynotes[1][slicer:len(daddynotes)-1]
-                bass2 = daddynotes[1][0:slicer] \
-                        + mammynotes[1][slicer:len(mammynotes)-1]
+            if len(daddynotes[0]) > 0 and len(mammynotes[0]) > 0:
+                # slice bass notes
+                if len(daddynotes[1]) > len(mammynotes[1]):
+                    slicer = random.randint(0,len(mammynotes[1]))
+                    bass1 = mammynotes[1][0:slicer] \
+                            + daddynotes[1][slicer:len(daddynotes)-1]
+                    bass2 = daddynotes[1][0:slicer] \
+                            + mammynotes[1][slicer:len(mammynotes)-1]
+                else:
+                    slicer = random.randint(0,len(daddynotes[1]))
+                    bass1 = daddynotes[1][0:slicer] \
+                            + mammynotes[1][slicer:len(mammynotes)-1]
+                    bass2 = mammynotes[1][0:slicer] \
+                            + daddynotes[1][slicer:len(daddynotes)-1]
+
+                [child1.append(b) for b in bass1]
+                [child2.append(b) for b in bass2]
             else:
-                slicer = random.randint(0,len(daddynotes[1]))
-                bass1 = daddynotes[1][0:slicer] \
-                        + mammynotes[1][slicer:len(mammynotes)-1]
-                bass2 = mammynotes[1][0:slicer] \
-                        + daddynotes[1][slicer:len(daddynotes)-1]
-
-            for t in treble1:
-                child1.append(t)
-            for b in bass1:
-                child1.append(b)
-
-            for t in treble2:
-                child2.append(t)
-            for b in bass2:
-                child2.append(b)
+                return (mammybeat,daddybeat)
 
             if len(child1) == 0 or len(child2) == 0:
                 return (mammybeat,daddybeat)
@@ -240,9 +262,11 @@ class genetic:
     def getBeat(self, testbeat, minfit):
         """ use genetic algorithms to get a suitable beat """
 
+        self.chromosomes = self.initChromo()
         generations = 1
         fitness = 9999
-        beatdetails = (self.pitchMedian(testbeat), self.lengthAvg(testbeat), self.countNotes(testbeat))
+        beatdetails = (self.pitchMedian(testbeat), self.lengthAvg(testbeat), 
+                self.countNotes(testbeat)) # feature vector of seed beat
 
         while fitness > minfit:
             print("\033[92mGeneration {0}, closest match: {1}\033[0m".format(generations,fitness))
@@ -251,10 +275,10 @@ class genetic:
                 chromosome.fitness = self.checkFitness(beatdetails, chromosome.beat)
                 totalFitness += chromosome.fitness
 
-                if chromosome.fitness < minfit and not self.stack.contains(chromosome):
+                if chromosome.fitness < minfit and not self.stack.contains(chromosome.beat):
                     # doesn't have to be best match just good enough
                     print("Match found! Fitness: ",chromosome.fitness)
-                    self.stack.push(chromosome)
+                    self.stack.push(copy.copy(chromosome.beat))
                     return chromosome.beat
 
             fitness = sorted(self.chromosomes, key=lambda x:x.fitness)[0].fitness
@@ -300,11 +324,36 @@ def getFirstBeats(beatlist):
                         firstbeatlist.append(beat)
     return firstbeatlist
 
+globalmeasure = 1
+def addToPiece(fourbeats,mxl):
+    global globalmeasure 
+    globalmeasure += 1
+    part = mxl.find("./part")
+    measure = ET.Element("measure")
+    measure.set("number",str(globalmeasure))
+    notes = [[],[]] # [[treble notes],[bass notes]]
+    backup = 0
+    for beat in fourbeats:
+        index = 0
+        for note in beat:
+            if note.tag == "backup":
+                backup += int(note[0].text)
+                index = 1
+            else:
+                notes[index].append(note)
+    for treble in notes[0]:
+        measure.append(treble)
+    measure.append(ET.fromstring("<backup><duration>"+str(backup)+"</duration></backup>"))
+    for bass in notes[1]:
+        measure.append(bass)
+    part.append(measure)
+
+
 def generate():
     pwd = os.path.dirname(os.path.realpath(__file__))
     speacdir = pwd + "/../data/SPEAC"
     print("Getting a seed beat...")
-    beats = MC.speacBeats(speacdir)
+    beats = speacBeats(speacdir)
 
     seeds = beats.randomChoice()
     while len(seeds) < 1:
@@ -323,12 +372,11 @@ def generate():
         measure.append(newBeat)
         seed = copy.deepcopy(newBeat)
         if len(measure)>=4:
-           MC.addToPiece(measure,mxlskeleton)
+           addToPiece(measure,mxlskeleton)
            measure = []
 
     if os.path.isfile("composition.xml"):
         os.remove("composition.xml")
     mxlskeleton.write("composition.xml")
-
 
 generate()
