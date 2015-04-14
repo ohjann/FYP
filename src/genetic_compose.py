@@ -305,10 +305,15 @@ def generate():
     speacdir = pwd + "/../data/SPEAC"
     print("Getting a seed beat...")
     beats = MC.speacBeats(speacdir)
-    firstbeats = getFirstBeats(beats)
-    del beats # not used anymore
-    seed = random.choice(firstbeats)
+
+    seeds = beats.randomChoice()
+    while len(seeds) < 1:
+        seeds = beats.randomChoice()
+    seed = random.choice(seeds)
     print("Seed beat found")
+
+    del beats # not used anymore
+
     gen = genetic((pwd + "/../data/SPEAC"),0.7,0.02)
     measure = []
     mxlskeleton = ET.parse("mxl-skeleton.xml")

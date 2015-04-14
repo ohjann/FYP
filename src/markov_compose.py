@@ -138,6 +138,10 @@ class speacBeats:
     def __init__(self,dirname):
 
         self.dirname = dirname
+        self.attrlist = ["A1","A2","A3","A4",
+                "C1","C2","C3","C4",
+                "E1","E2","E3","E4",
+                "S1","S2","S3","S4"]
 
         self.A1 = self.getBeats("A1")
         self.A2 = self.getBeats("A2")
@@ -168,6 +172,11 @@ class speacBeats:
     def getBeats(self,SPEAC):
         tree = ET.parse(self.dirname+"/"+SPEAC+".xml")
         return tree.findall("beat")
+
+    def randomChoice(self):
+        name = random.choice(self.attrlist)
+        return getattr(self,name)
+
     
     def __iter__(self):
         for attr, value in self.__dict__.items():
