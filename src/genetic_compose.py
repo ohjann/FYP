@@ -310,20 +310,6 @@ class genetic:
 
         return self.chromosomes[0].beat
 
-
-def getFirstBeats(beatlist):
-    firstbeatlist = []
-    for b_list in beatlist:
-        for b in b_list[1]:
-            firstbeat = []
-            if not type(b) is str:
-                notelist = b.xpath("//note[@beatnumber='1']")
-                for note in notelist:
-                    beat = note.getparent()
-                    if not beat in firstbeatlist:
-                        firstbeatlist.append(beat)
-    return firstbeatlist
-
 globalmeasure = 1
 def addToPiece(fourbeats,mxl):
     global globalmeasure 
