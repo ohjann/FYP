@@ -25,26 +25,26 @@ class genetic:
         self.chromosomes = None
         self.crRate = crossoverRate
         self.muRate = mutateRate
-        self.stack = self.Stack(24)
+        self.queue = self.Queue(24)
 
     class Chromosome():
         def __init__(self, beat, fitness):
             self.beat = beat
             self.fitness = fitness
 
-    class Stack():
-        """ FILO stack of fixed size """
+    class Queue():
+        """ FILO queue of fixed size """
         def __init__(self, size):
             self.size = size
-            self.__stack = []
+            self.__queue = []
 
         def push(self, element):
-            if len(self.__stack) >= self.size:
-                self.__stack.pop()
-            self.__stack.insert(0,element)
+            if len(self.__queue) >= self.size:
+                self.__queue.pop()
+            self.__queue.insert(0,element)
 
         def pop(self):
-            return self.__stack.pop()
+            return self.__queue.pop()
 
         def elements_equal(self,e1,e2):
             if e1.tag != e1.tag: return False
@@ -55,7 +55,7 @@ class genetic:
             return all(self.elements_equal(c1, c2) for c1, c2 in zip(e1, e2)) 
 
         def contains(self,element):
-            for e in self.__stack:
+            for e in self.__queue:
                 if self.elements_equal(e,element):
                     return True
             return False
@@ -275,10 +275,10 @@ class genetic:
                 chromosome.fitness = self.checkFitness(beatdetails, chromosome.beat)
                 totalFitness += chromosome.fitness
 
-                if chromosome.fitness < minfit and not self.stack.contains(chromosome.beat):
+                if chromosome.fitness < minfit and not self.queue.contains(chromosome.beat):
                     # doesn't have to be best match just good enough
                     print("Match found! Fitness: ",chromosome.fitness)
-                    self.stack.push(copy.copy(chromosome.beat))
+                    self.queue.push(copy.copy(chromosome.beat))
                     return chromosome.beat
 
             fitness = sorted(self.chromosomes, key=lambda x:x.fitness)[0].fitness
@@ -305,7 +305,7 @@ class genetic:
 
             generations += 1
             if generations > 10:
-                print("Couldn't find fitness under specified, returning closest")
+                print("Couldn't find fitness under specified score, returning closest")
                 break
 
         return self.chromosomes[0].beat
